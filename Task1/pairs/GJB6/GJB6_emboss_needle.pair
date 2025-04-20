@@ -1,0 +1,1021 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 08:57:36
+# Commandline: needle
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/039666/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/039666/.bsequence
+#    -datafile EDNAFULL
+#    -noendweight
+#    -brief
+#    -outfile outfile
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c20232319-20221962
+# 2: c57370764-57360760
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12251
+# Identity:    6359/12251 (51.9%)
+# Similarity:  6359/12251 (51.9%)
+# Gaps:        4139/12251 (33.8%)
+# Score: 16020.0
+# 
+#
+#=======================================
+
+c20232319-202      1 GCCTTCACCCGAA----ACCCGA---------CGAGAGCCCGACAGCCGG     37
+                      .||.||||||.|    .|||||         ||     |.|..|.|||.
+c57370764-573      1 -GCTCCACCCGCACTGTCCCCGATTCCATTCCCG-----CTGTGAACCGC     44
+
+c20232319-202     38 CGGCGCCCGAGCCCGACCTGCCTGCCCA--GCCGGAGCGAAGGGCGCCGC     85
+                     |||||||.|| .||.||||.|  ||.||  |..|||||...|.|.|||||
+c57370764-573     45 CGGCGCCTGA-TCCAACCTAC--GCTCAGGGTAGGAGCTCTGAGTGCCGC     91
+
+c20232319-202     86 CCCGCGCAGAGCCCGCGCCAGGGCCGCCGGCCGCAGAGCAGGTAAGCGGG    135
+                     ..|     |||||.|     |.||||.|..||.|.||||||||||||   
+c57370764-573     92 TGC-----GAGCCTG-----GAGCCGGCTCCCACCGAGCAGGTAAGC---    128
+
+c20232319-202    136 CGCGGACCGGCTGGGTCTTGCGGGGGGCGAGCGGGCGGTGCCACCTCGGC    185
+                                               |||||.|||               
+c57370764-573    129 --------------------------GCGAGTGGG---------------    137
+
+c20232319-202    186 CCCCCAGCGGAGGAATTTCCTCCAAGAAAACAAAACAGGT----GAGGTC    231
+                          |||      |||||||||.|||||.|....|||||    ||.|| 
+c57370764-573    138 -----AGC------ATTTCCTCCGAGAAACCCGGGCAGGTAAAGGAAGT-    175
+
+c20232319-202    232 GGCGG-CTGGTCCCCACCTCGCC-----------------------CCTG    257
+                        || |||.||||...||||||                       |..|
+c57370764-573    176 ---GGTCTGTTCCCTTTCTCGCCAGATTTGTGGGACGAGGGGGTGGCAAG    222
+
+c20232319-202    258 TCGCTCCTGTCTGGCAC--CGGAT-CAGAGCCGGCA-----GAGC--GCG    297
+                     |..||||.|.| |||.|  |||.| ||||     ||     ||.|  |||
+c57370764-573    223 TATCTCCAGGC-GGCCCGGCGGTTACAGA-----CAGTCTTGACCATGCG    266
+
+c20232319-202    298 GCCGGGATGGGTGTCTGGCCGCACGTGGGGCGACCGG-----GCC-----    337
+                     |  |||.||||.|           |.||||.|.|.||     |||     
+c57370764-573    267 G--GGGGTGGGGG-----------GGGGGGAGGCGGGGGTTTGCCAGCAT    303
+
+c20232319-202    338 CCCGATCTGCCT-CTATCCGCA-CCCTCCTGTCCACGCGCCCCGG-----    380
+                     ||..|||||||| |.|||.||| |||.|||.|.|..||.|.||||     
+c57370764-573    304 CCTTATCTGCCTCCCATCGGCATCCCGCCTTTGCGAGCCCACCGGGAACT    353
+
+c20232319-202    381 ----CCCCGGCCCGATGGCAGTGGGCGCCGCCCGCGCTGGACCCTCTCTC    426
+                         ||.||||..|      ||||..|.|.|||||||.|..|||||.|||
+c57370764-573    354 GGAACCGCGGCAGG------GTGGTTGTCACCCGCGCCGCCCCCTCCCTC    397
+
+c20232319-202    427 TGTAC---GCAG-AGGAACGAGGATGGACTGGTTTGACTTTTAC-CCCAG    471
+                      ||.|   |||| ||||||..|||||||||.|||||||||.|.| ..||.
+c57370764-573    398 -GTGCCCTGCAGTAGGAACTGGGATGGACTAGTTTGACTTCTGCATGCAC    446
+
+c20232319-202    472 CGTGGTCCCCTTTGACTTGTACAACAGGTTTTATGAAGGTTTCATATC-G    520
+                     |.||  |||||.|||||||.||.|||||||||||.||     ||.|.| |
+c57370764-573    447 CATG--CCCCTCTGACTTGCACGACAGGTTTTATAAA-----CACACCAG    489
+
+c20232319-202    521 TGTGTCT-AAGAGGCCAGAGTGAGGGCCGG----TGCCCCTTTCCCCCGT    565
+                     ..|||.| |||.|.|.|||||     ||||    .|.|||||| .|.|.|
+c57370764-573    490 GCTGTTTAAAGTGACTAGAGT-----CCGGATTAAGTCCCTTT-TCTCAT    533
+
+c20232319-202    566 TTCATTTGCTGCGTGTTGGATTTTCTAAGCTTTTGTGGGTCACCGGGGTG    615
+                     |||.|||||||   |||.|                         |||.||
+c57370764-573    534 TTCCTTTGCTG---GTTTG-------------------------GGGCTG    555
+
+c20232319-202    616 TCCCCTTGGATTTGGGGAG---------AAG-AAAGCCAGGTCTAGGATG    655
+                     |   |.|.|||||||||||         ||| |.|||.|||  .|.||| 
+c57370764-573    556 T---CATCGATTTGGGGAGCGGGCAGAAAAGCACAGCAAGG--AATGAT-    599
+
+c20232319-202    656 CGGGTTTCAGTTCAGACAAACCCT-CAACTTGG--------GCCGATGCA    696
+                        ||||..|.||||.|||||||| |.||||||        |||.||.||
+c57370764-573    600 ---GTTTATGGTCAGTCAAACCCTGCGACTTGGAGAGAAATGCCCATTCA    646
+
+c20232319-202    697 TAAGTCCCCGGAGAACCGCAGGGTATGGGCTGCGTGATGGGCTTCCGA--    744
+                                                ||||||.|||     ||..||  
+c57370764-573    647 ---------------------------GGCTGCATGA-----TTAAGACT    664
+
+c20232319-202    745 --GAAACTTGTGAAATGCTGATGACAATAGCGTGGACGACAGTAATTAAA    792
+                       |.|||||.|||||.|..|||||||.||..|||.||.|.||||||||||
+c57370764-573    665 CTGGAACTTATGAAACGAAGATGACAGTATAGTGCACAATAGTAATTAAA    714
+
+c20232319-202    793 AGTAATTGGCGACACATCTTAGTTAAAACGTGCAGGCAC-CAGAAGGCAC    841
+                     |||||||||.||||..|| .|.||||||.||.|||  || |.||....||
+c57370764-573    715 AGTAATTGGTGACATGTC-GAATTAAAAAGTTCAG--ACGCGGATAATAC    761
+
+c20232319-202    842 TTCCTGTCGGTGAAGAAGACCT-GTCTCC-GGTGTCACGGGCATCCTGTG    889
+                     ||||      ||||..|| ||| || ||| |||||.|   |||.||||.|
+c57370764-573    762 TTCC------TGAATGAG-CCTAGT-TCCAGGTGTTA---GCAGCCTGGG    800
+
+c20232319-202    890 TTTTGCAAAC-GGGGCTGACCTCCCTTCCTGGGGAGCAGG--AAGGGTCA    936
+                     |||||||||| .|||||..|.||..||||||||||.||||  ...||||.
+c57370764-573    801 TTTTGCAAACTTGGGCTCCCTTCTATTCCTGGGGACCAGGCCTCCGGTCT    850
+
+c20232319-202    937 GGGTGAGTGTGGCCTGCCCGCAGCTCTG--CACTCCCGGAGGG---GTTA    981
+                     ..|.||.||||||||.|...|||||.||  ||||   |||..|   ||  
+c57370764-573    851 CAGAGAATGTGGCCTTCATACAGCTATGGACACT---GGAAAGTCCGT--    895
+
+c20232319-202    982 GGGACCTGCAACCAGGCG----GGGACACTGGCCCAGCGACCTCAGTGTC   1027
+                      |||||||||.||  |||    |||||||...||..|.|||.|.|  |||
+c57370764-573    896 -GGACCTGCAGCC--GCGGTAAGGGACACCAACCAGGAGACTTTA--GTC    940
+
+c20232319-202   1028 CCCTGGGTGGGCGTGCACTCTGTTTAGTGTCTGATTGAACGTAACCGTGC   1077
+                     |                     .||.|.|.||||||.|...||||..|||
+c57370764-573    941 C---------------------GTTCGAGCCTGATTAAGTTTAACGCTGC    969
+
+c20232319-202   1078 CGGGTTGTTCTTTTCCCTCAAGTAGACTTTATGCCATACAGCTATTTTC-   1126
+                     .|   |.||.|||||..|||||||||...||||           ||||| 
+c57370764-573    970 AG---TCTTGTTTTCTTTCAAGTAGATGCTATG-----------TTTTCT   1005
+
+c20232319-202   1127 TTGCCCCAGTTCTAGCAGAATCTAACCAGTGTTCTAGAAG-AAAATGTCC   1175
+                     ||||||||||||||.|||||||.||.|||||||||||||| ||||.||||
+c57370764-573   1006 TTGCCCCAGTTCTAACAGAATCCAAGCAGTGTTCTAGAAGAAAAACGTCC   1055
+
+c20232319-202   1176 TGCCCCCATGCAGTCTCCTTAGAATTGCAGGGTGCTGCTCAGAACTGCTC   1225
+                     ||.||..|||||||.|||||||||.||||||.|||||||||||||.||.|
+c57370764-573   1056 TGTCCTGATGCAGTTTCCTTAGAACTGCAGGATGCTGCTCAGAACGGCCC   1105
+
+c20232319-202   1226 CTGTGGAGAGCTTTGTCTGTTGTTTGGATCCAGCAGCGTCTTT-------   1268
+                     |||||||||||||||||.|.|.|||||||.||||||.||||||       
+c57370764-573   1106 CTGTGGAGAGCTTTGTCAGCTCTTTGGATTCAGCAGAGTCTTTTGGGGGG   1155
+
+c20232319-202   1269 ---GGGGGTGTTGCTTGAAGCT-TGCCAAGGAGGAGAGGGGGGTTCTGAA   1314
+                        |||||||.||..|||| || ||||||    ||.|||||||...|||.
+c57370764-573   1156 GGGGGGGGTGCTGTCTGAA-CTCTGCCAA----GAAAGGGGGGAGGTGAT   1200
+
+c20232319-202   1315 GAGAGAACACCAGGGCTCTAGCCTGTCACATAACTGGGGGTGTGGAGAGC   1364
+                     | ||.||..||.|         ||||||||||||||||||||.|.||.|.
+c57370764-573   1201 G-GAAAAAGCCTG---------CTGTCACATAACTGGGGGTGCGAAGGGT   1240
+
+c20232319-202   1365 GCCTCATTGCCACTGCA----GTGACTAAAGCTGGG------AAGACGCT   1404
+                     .|||..|   |||..||    |.||||     ||.|      ||||  ||
+c57370764-573   1241 TCCTGTT---CACCTCACAGGGGGACT-----TGAGACCCACAAGA--CT   1280
+
+c20232319-202   1405 GGTCAGTTCACCTGCCC------CACTGGT---TGTTTTTTAAA--CAAA   1443
+                     |.||    ||||..|||      |||||||   ||||.||.|||  .|||
+c57370764-573   1281 GATC----CACCAACCCAGGTCACACTGGTGGCTGTTATTGAAAGGTAAA   1326
+
+c20232319-202   1444 TTCTGATACAGGTAATGATGACTTTATGCTTTTTTTCTTATGTCTTCTCT   1493
+                     |||         ..|||.|||||||.|.||.|.||||   |||.||||||
+c57370764-573   1327 TTC---------CCATGGTGACTTTGTTCTCTATTTC---TGTTTTCTCT   1364
+
+c20232319-202   1494 TCTGAATTCTGAGTGTTAGGAAGGAAAAGAAGTAC--AGAAGATCTGGCT   1541
+                     ..||      |.||||            ||..|||  ||||||..|||.|
+c57370764-573   1365 CTTG------GCGTGT------------GAGATACGGAGAAGAGTTGGGT   1396
+
+c20232319-202   1542 A---------AACAATTTCTGTATGGC----GAAAGAAAAATTCTAACTT   1578
+                     |         |||.||||   |||  |    ||||| |||..||..||||
+c57370764-573   1397 AGGGTCTTTCAACGATTT---TAT--CAATAGAAAG-AAAGCTCAGACTT   1440
+
+c20232319-202   1579 GTACGCCCTCTTCATGCATCTTTAATTCAATTTGAATATTCC-------A   1621
+                     ||||..||                  |||.|.||||.|||||       |
+c57370764-573   1441 GTACATCC------------------TCAGTCTGAAAATTCCAGAGTCTA   1472
+
+c20232319-202   1622 GGTGCTGTGAGCAGTTTGCATATATTAGTTTAAATGTTAAATGGGATAAA   1671
+                     ||| .||||.|||  |||                 ||||..|||||||.|
+c57370764-573   1473 GGT-TTGTGTGCA--TTG-----------------GTTAGGTGGGATACA   1502
+
+c20232319-202   1672 ATTGTGGGAA-AGTGATTTCTGACCCAAGCTTCTTGGTCTGTGAGGGCAT   1720
+                     ||..|||||| |.|| |||.|.||..|||.|||||||||...|.||.|||
+c57370764-573   1503 ATCATGGGAAGATTG-TTTGTAACTGAAGTTTCTTGGTCCCGGGGGCCAT   1551
+
+c20232319-202   1721 AACCTTCTAATGGCCAC-CTGCCATAGGTTATGATTT-------CTGTTT   1762
+                     ||.|||         || |||.|.|||| .|.|||||       ||    
+c57370764-573   1552 AATCTT---------ACACTGTCCTAGG-CAGGATTTTCAGGAGCT----   1587
+
+c20232319-202   1763 TAGTTGCTTAGTGCAT----GAGCATAGACCTGGAACCCCAGAGGGCCT-   1807
+                       |||||||    .||    |||..|.||.|||| .|||||| |.|||| 
+c57370764-573   1588 --GTTGCTT----GATCTGGGAGGGTGGAACTGG-GCCCCAG-GAGCCTC   1629
+
+c20232319-202   1808 -GCTCCATTTTTATTCCCAGGGTCATTTAAATCTAGTTGAGCTTAAA---   1853
+                      .||.|.|.|||     |||.||.||||||.|.||.||||.|.||||   
+c57370764-573   1630 CCCTGCCTCTTT-----CAGAGTTATTTAATTGTAATTGAACCTAAAGGA   1674
+
+c20232319-202   1854 --TGTTTGGAAAGGACACAGGTTTGCTTGAATGAACAAACATATATTGCT   1901
+                       ||||||||.||||.|.||..|||||||   |||||..||   ..||||
+c57370764-573   1675 AGTGTTTGGAGAGGAGAGAGCCTTGCTTG---GAACAGGCA---GCTGCT   1718
+
+c20232319-202   1902 AACAA-GACCCAGAGAAGGAAAGTTTAACTTAATGGAAATTAATT----T   1946
+                     ||.|| |.||.||.|||||.|.|||          ||||||||||    |
+c57370764-573   1719 AAGAAGGGCCTAGGGAAGGGATGTT----------GAAATTAATTGTCGT   1758
+
+c20232319-202   1947 TT--AACTCTTTGAATTCTTAAATGATGTAAGAAACATACGTAATTGCAT   1994
+                     ||  |.|||..||           ||.| ||||||||.|..|  |||  |
+c57370764-573   1759 TTGGAGCTCAGTG-----------GAAG-AAGAAACACAGTT--TTG--T   1792
+
+c20232319-202   1995 GAGTTTTCCATTTTTACATCTAGACTCCACAGACAG-AAACGTTTCATTT   2043
+                     |..||..|||||.||..||.||.|..|     |||| |||.||.||    
+c57370764-573   1793 GGCTTGCCCATTCTTCTATGTAAAGGC-----ACAGCAAAGGTCTC----   1833
+
+c20232319-202   2044 TTATTG-----AGTTAATTTTGAAA---TATATGAATC-----CCTGACC   2080
+                       .|||     |||..||.||||.|   ||||||||||     |||||  
+c57370764-573   1834 --GTTGGCGCCAGTGGATGTTGACAAGGTATATGAATCCTAAACCTGA--   1879
+
+c20232319-202   2081 CATTGTTATCACTA---GCTGTT----ACTCTATCAGGACAGTTGCTGAA   2123
+                        ||..|||||||   .|||||    |.||       |.||.|.||||.
+c57370764-573   1880 ---TGCCATCACTACTCACTGTTTTGAAATC-------ATAGATCCTGAT   1919
+
+c20232319-202   2124 GTTTTTTGTCACTAAATTTAAAAATCAACTATCAGGTTGTCCCTTGGATG   2173
+                     |.|||..||||.|||||||.|||.|..||||||||||||||.|||||.|.
+c57370764-573   1920 GGTTTGCGTCATTAAATTTCAAACTGGACTATCAGGTTGTCTCTTGGGTC   1969
+
+c20232319-202   2174 ACCTGAGATTTCTAGAGACAAAAGAAATCTATTCTTCCTGATTGAAGAAA   2223
+                     ||||||||||||||||||               .|||.|||||.|||.|.
+c57370764-573   1970 ACCTGAGATTTCTAGAGA---------------TTTCTTGATTAAAGGAT   2004
+
+c20232319-202   2224 GA--------GTCTGAGA-----------TTTTTTTTAAACCACTGAT-T   2253
+                     ||        .|.|.|||           ||||||||||| |.|||.| |
+c57370764-573   2005 GACTTTTTAGTTTTCAGATTTTTTTTTTTTTTTTTTTAAA-CTCTGGTAT   2053
+
+c20232319-202   2254 TGGGGATCAGGGTGTAGCCAGTGTCTCAAACTCT-CCCCTGTCCCTTTTT   2302
+                     ||||.|...||.||||.||||..|.|||||.||| ||.||     |||||
+c57370764-573   2054 TGGGAAGGTGGCTGTACCCAGCTTTTCAAATTCTACCACT-----TTTTT   2098
+
+c20232319-202   2303 GTT--TTGCTCAAG--GAGTGGGCTTGAGGCCTC-AGATTGGGTGTT---   2344
+                     ..|  |||  .|||  ||||    |||||| .|| ||||.|.|..||   
+c57370764-573   2099 CATACTTG--GAAGTTGAGT----TTGAGG-TTCGAGATAGTGGATTATC   2141
+
+c20232319-202   2345 ---------ACTGTTATTTTGAT----AGGGAAAGGATCCTA--CTAAAG   2379
+                              ||||.|.||.||||    ||||||||.|..|||  ||..||
+c57370764-573   2142 ATCACCACCACTGCTGTTGTGATTAACAGGGAAAGAAAGCTACCCTGGAG   2191
+
+c20232319-202   2380 AGCACCTTTGATTATTTTG-------TGTGTTCAAAGCATAGAGCATCAG   2422
+                     ||...||||.|      ||       .|.||.||||||||         |
+c57370764-573   2192 AGAGTCTTTCA------TGGGGCAGAGGAGTACAAAGCAT---------G   2226
+
+c20232319-202   2423 -GAAGCTGGCAATTTCTGAACTTACC---TCATAACAG-TTCTGGGAATG   2467
+                      |||.|||.|||..||..||.|||||   ||||    | .|||.|   ||
+c57370764-573   2227 TGAAACTGACAACATCCAAATTTACCCTTTCAT----GCGTCTCG---TG   2269
+
+c20232319-202   2468 AAGAAAAACTACCCACAAAGTTTATTCAGGGGACATATTGCGGGGGGCGG   2517
+                     |            |||||||.|..|.||..|   |..|||||        
+c57370764-573   2270 A------------CACAAAGGTCGTCCAATG---AATTTGCG--------   2296
+
+c20232319-202   2518 GGGGGGGGGGAGTTAAAGGAATATGGCAACA---GCTACTAT-------T   2557
+                                     ..|||..||.|||||   ||..|.||       |
+c57370764-573   2297 ----------------CAGAACTTGACAACATTGGCAGCAATGATTTTCT   2330
+
+c20232319-202   2558 TTTCCCTCAACAGGCGACATCCTCACTG---------ACCGAGCAAAG-A   2597
+                     ||||..||||||||.|||||.|.|||||         ||.||||  || |
+c57370764-573   2331 TTTCATTCAACAGGTGACATTCCCACTGTGACCCTAAACAGAGC--AGCA   2378
+
+c20232319-202   2598 TTGACATTCGTATCATCACTGTGCACCATTGGCTTCT-AGGCACTCCAGT   2646
+                     .|| ||.|...|.||.||||    |||    |||.|| |.|   |||||.
+c57370764-573   2379 GTG-CAGTGCCACCACCACT----ACC----GCTGCTGATG---TCCAGA   2416
+
+c20232319-202   2647 GGGGTAGGA--GAAGGAGGTCTGAAACCCTCGCAGAGGGATCTTGCCCTC   2694
+                     ||.||||||  |||.||   |.|||..|||.||||||||||.||||..|.
+c57370764-573   2417 GGAGTAGGAGGGAAAGA---CAGAAGTCCTTGCAGAGGGATTTTGCAGTG   2463
+
+c20232319-202   2695 ATTCTT----TGGGTCTGAAACACTGGCAGTCGTTGGA-AACAGGACTCA   2739
+                     |.||||    ||||     ..|.||||.|| |..|||| ||||.||||||
+c57370764-573   2464 ACTCTTGAGCTGGG-----CGCCCTGGAAG-CCCTGGAGAACAAGACTCA   2507
+
+c20232319-202   2740 GGTTTGCTTGTTTTGCTTTGA-TATTGTTTTCCTTTTATCTATGCAGACT   2788
+                     ||||||..|||||||| |||| |.|.||||||   |||||          
+c57370764-573   2508 GGTTTGGGTGTTTTGC-TTGAGTCTGGTTTTC---TTATC----------   2543
+
+c20232319-202   2789 CCCCGACTATCCAAAGCTAACTTCGAAATTGGGAGGCACATGTTCCTGTT   2838
+                                                                 |||   
+c57370764-573   2544 --------------------------------------------CCT---   2546
+
+c20232319-202   2839 CTCAGATCTATCAACTACTCCCTAGATGGCCAGGCGCGATGGCTCATGCC   2888
+                      ||||.||||                                        
+c57370764-573   2547 -TCAGCTCTA----------------------------------------   2555
+
+c20232319-202   2889 TGTAATCCCAACACTTTGGGAGGCCGAGGCTGAGGTCAGGAGTTCAAGAC   2938
+                             ||.||                          ||||       
+c57370764-573   2556 --------CATCA--------------------------GAGT-------   2564
+
+c20232319-202   2939 CAGCCTGACCAAGGTGGCAAAACCCTGTCACTACTAAAAAAAAAAAAAAA   2988
+                                  |||        ||.|| || ||               
+c57370764-573   2565 -------------GTG--------CTTTC-CT-CT---------------   2576
+
+c20232319-202   2989 AAAAAAAAAAAAAAAATTAACCAGGTATGGTGGCATATGCCTGTAGTCCC   3038
+                                                |||            ||      
+c57370764-573   2577 ---------------------------TGG------------GT------   2581
+
+c20232319-202   3039 AGCTATTCAGGAGGCTGAAGCACAAGAATCACTAGAACCGGGGAGGCAGA   3088
+                       |||||               .||..|||||.||               
+c57370764-573   2582 --CTATT---------------AAATCATCACCAG---------------   2599
+
+c20232319-202   3089 TGTTGCAGTGAGCTGAGATTGCACCATTGCACTCCACCCTGGGCAACAGG   3138
+                            ||||                                       
+c57370764-573   2600 -------GTGA---------------------------------------   2603
+
+c20232319-202   3139 GCAAGACTCTGTCTAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTT   3188
+                                                                      |
+c57370764-573   2604 -------------------------------------------------T   2604
+
+c20232319-202   3189 TTTTTTTTGCTAAATG------ACATTGAAAGGGGAACAGAGCTATCTAG   3232
+                     ||||||||.|.||.||      |.||||                ||||||
+c57370764-573   2605 TTTTTTTTTCAAAGTGTACTGTAGATTG----------------ATCTAG   2638
+
+c20232319-202   3233 AAAAATATGCTGAGGGGTTACACTCTAACT-----TTGGGGGCTTTAGTT   3277
+                     |||||.|    ||      |..||||..||     .|||||||.||.|||
+c57370764-573   2639 AAAAAAA----GA------AAGCTCTTTCTGTGTGCTGGGGGCCTTCGTT   2678
+
+c20232319-202   3278 TTGGTTCTGTCATTAGTGAAATTATAATGGCATAGATAAATAAGCTAGTT   3327
+                     |.||||||.||.|..|||.|.|||.||||.||| |||   |.|||.||.|
+c57370764-573   2679 TGGGTTCTCTCTTCCGTGGAGTTAAAATGACAT-GAT---TTAGCCAGCT   2724
+
+c20232319-202   3328 GTGATTAATTTCCTAAGAA----GTTT-----------------------   3350
+                     ||.|||||.||||.|||.|    ||||                       
+c57370764-573   2725 GTAATTAAATTCCAAAGTAACGCGTTTCAGACCATCCTTGCCGAACAGGC   2774
+
+c20232319-202   3351 -----TAAAAC---AATCAAGAAATTTCATT-------------------   3373
+                          |||.||   |..|||| ..||||..|                   
+c57370764-573   2775 AGGTGTAACACCGAAGGCAAG-GCTTTCGATCCTCTTGCCCGCCCCTCTT   2823
+
+c20232319-202   3374 ---------AG-TGCAGTCAAATGCCAA------------TAGATCTAAA   3401
+                              || |||.|.| ||||.|||            .||.|.|   
+c57370764-573   2824 CCTCCTGGCAGCTGCTGAC-AATGACAACTCACCTGCCCCGAGGTTT---   2869
+
+c20232319-202   3402 TTATTTGAATTGTAAAAGGAAAGAACAACCTATCTTCA-----CAATGCT   3446
+                     ||..||.||.|.|||.|         ||..|.||||||     |||    
+c57370764-573   2870 TTTCTTCAACTCTAATA---------AAATTGTCTTCAGCCTTCAA----   2906
+
+c20232319-202   3447 GTGTGGATCCTCAAAAGT----AAAGTCCATGGTTTACTTAT-TTTTAGA   3491
+                           ||.| |||||||    ||||.|   ||||  .|||| ||.||.|
+c57370764-573   2907 ------ATAC-CAAAAGTTTCAAAAGCC---GGTT--ATTATGTTATATA   2944
+
+c20232319-202   3492 G---CTAGATATTTCAGACTGGAGCTTTAGTATCAAGAATATAGCATGGG   3538
+                     |   ||.||..|.|.||||.||             ||||| .|.||||  
+c57370764-573   2945 GCTTCTTGAGGTCTGAGACAGG-------------AGAAT-GACCATG--   2978
+
+c20232319-202   3539 CCGGGCGCGGTGGCTCATGCTTGTAATCCCAG--CACTTTGGGAGGCCAA   3586
+                                      .|.|||       ||  |.||.|.||||..|| 
+c57370764-573   2979 -----------------AGTTTG-------AGGTCTCTCTAGGAGTACA-   3003
+
+c20232319-202   3587 GGGGGGCGGATCATGAGGTCAG---GAGAT------CGAGACCATCCTGG   3627
+                                    |||||||   ||.||      |.|||    |||..
+c57370764-573   3004 ---------------AGGTCAGTTAGAAATACATAGCAAGA----CCTCT   3034
+
+c20232319-202   3628 CT---AACACGG----------TGA------AACCCCGTCTCTACTAAAA   3658
+                     ||   |||| ||          |||      ||.|.|.||.||.||..| 
+c57370764-573   3035 CTCAAAACA-GGATTGTAAAAATGATCAAGGAATCACATCACTGCTGGA-   3082
+
+c20232319-202   3659 ATACAAAAAATTAGCCGGGCTTGGTGGCAGGCGCCTGTAGTCCCAGCTGC   3708
+                       ||||||                            ||||.|||||||..
+c57370764-573   3083 --ACAAAA----------------------------GTAGACCCAGCTTA   3102
+
+c20232319-202   3709 TCAGAGA-GGCTGAGGCGGGAGAACGGCGTGAACCCGGGAGGCGGAGCTT   3757
+                     |..||.| |.|..|   ||.|||||    .|||||           .|||
+c57370764-573   3103 TTTGAAATGTCAAA---GGAAGAAC----AGAACC-----------ACTT   3134
+
+c20232319-202   3758 GC-----AGTGAGCCGAGATCGTGCCACGGTACTCCAGCTTGGGCAACAG   3802
+                      |     ||||.|          |||                  |||.||
+c57370764-573   3135 -CATAATAGTGTG----------GCC------------------CAAAAG   3155
+
+c20232319-202   3803 AGCT-AGACTCCATCTCAA-----AAA----AAACA----AAAAACAAAA   3838
+                     .||| ..|||..||||..|     |||    .||||    ||..|.||.|
+c57370764-573   3156 TGCTCTCACTTTATCTTTAGTGGTAAATATTTAACATTGGAATTATAATA   3205
+
+c20232319-202   3839 ACAAAAAACAAAAACAAACAAACAAGAAAAAAC--AGCATCGAGTTCTTC   3886
+                     .|                          ||.||  ||.||.|||||.|.|
+c57370764-573   3206 TC--------------------------AAGACTGAGTATAGAGTTATGC   3229
+
+c20232319-202   3887 ACTATGATTACATTTACTACAAAACCGAACACAG------------TTTA   3924
+                     |||.|.|||          |||.||  |.|||||            |||.
+c57370764-573   3230 ACTGTAATT----------CAATAC--ATCACAGAAATAGATGCGATTTG   3267
+
+c20232319-202   3925 CCTTTTTAAGTTTAAATGTAATCACATTCTTAGAAGTTGAAGACTGCA--   3972
+                     .|||..|||...||||||.||.|||||||||..||..|||      ||  
+c57370764-573   3268 TCTTCCTAAACCTAAATGGAACCACATTCTTGTAAAGTGA------CATC   3311
+
+c20232319-202   3973 ---GAAGCTAAGCGTATC----TATTCTTTCCTTAAAAGACAGCCAGAGA   4015
+                        |..|||||||.||||    ||||..|||||||.|.|..|||||| ||
+c57370764-573   3312 TATGGGGCTAAGCATATCTATGTATTTGTTCCTTATAGGCAAGCCAG-GA   3360
+
+c20232319-202   4016 GGC-ATCAGTTAAAATGAACCTCTCTGGTTTCCGAAGAAAGAGTTAAT-A   4063
+                     .|| .||||.|.|||.|.|||||||||||.|.|.||||||.||||||| .
+c57370764-573   3361 AGCTGTCAGATTAAACGGACCTCTCTGGTGTACAAAGAAACAGTTAATGG   3410
+
+c20232319-202   4064 TTTCACTTTGTATTGAAAAAGCTCCTCCCATTGGCTCCAGCCCT----CC   4109
+                     |||.| |||..|.|||||.|||||||||||      |||||.||    ||
+c57370764-573   3411 TTTGA-TTTTCACTGAAACAGCTCCTCCCA------CCAGCTCTGACCCC   3453
+
+c20232319-202   4110 A--GAAGCAGGAGAGGAAAGAGGTACTTTGTTTAC-TACAGTTGCAAAGG   4156
+                     |  |||||        .|||.||...||||||.|| .|..|..|||||||
+c57370764-573   3454 ATGGAAGC--------GAAGTGGGTGTTTGTTCACGGAAGGCAGCAAAGG   3495
+
+c20232319-202   4157 GTCCCAGTGGATGCGATGATTTTGGAAAGTAATTTGAAAT----------   4196
+                     ||.|..|.||.||| |.||.|||||          |||||          
+c57370764-573   3496 GTTCTGGGGGCTGC-AGGAATTTGG----------GAAATGACTTCTGCT   3534
+
+c20232319-202   4197 -TAGTGACGACTT--CACAAATTGAAATAGC-----CTTCAAATCTTCTC   4238
+                      |||||||  |||  |.||.|.||     ||     ||||...||.||||
+c57370764-573   3535 CTAGTGAC--CTTTCCTCAGAGTG-----GCGGCTACTTCCTCTCCTCTC   3577
+
+c20232319-202   4239 CAACC-AAGAGGGTTTGTGAAAGATTATGCCCTGTGGTTATGTGTTTTTA   4287
+                     ..||| |||                 |||||..|.||||.|||||...|.
+c57370764-573   3578 TGACCGAAG-----------------ATGCCTCGAGGTTCTGTGTACCTG   3610
+
+c20232319-202   4288 CAAGGGAGAACCTGGG-----GGCTG--GGCGCTTTCTTTGCCACCCCCA   4330
+                     ||| |||.|| |.|||     ||.||  ||.||||               
+c57370764-573   3611 CAA-GGACAA-CAGGGTGACAGGATGCAGGAGCTT---------------   3643
+
+c20232319-202   4331 ACCCACAACATCCTTCCTCTGGGCCCC-TCTGCAGTCTGT---CCAC---   4373
+                                      |||.|||||| |||.||||||||   ||||   
+c57370764-573   3644 -----------------TCTAGGCCCCTTCTTCAGTCTGTTTCCCACTGG   3676
+
+c20232319-202   4374 CCA------CCCTGTCCACCCACCAAAGTCAGGACAGGAGCAGTCAGTGG   4417
+                     |||      |.|||.||||..|  .|||.||||||.||||        ||
+c57370764-573   3677 CCAGGGTGCCTCTGCCCACTGA--GAAGGCAGGACTGGAG--------GG   3716
+
+c20232319-202   4418 AGTTGAGTCCTCCTTAAAACTT--GCTGAGTCTCCTGCGTTTACTGCCA-   4464
+                     |  |||||||||   .||.|||  |.||    |||..|    ||..||| 
+c57370764-573   3717 A--TGAGTCCTC---TAATCTTCAGTTG----TCCACC----ACATCCAC   3753
+
+c20232319-202   4465 TCCTCCCACCGCTC-CTTGAATGGGA-GCGTCTCCTG-GGGCAGCCAGGC   4511
+                     |||||.....|||| ||.|...|||| |.|||||||| ...||.||||||
+c57370764-573   3754 TCCTCATGGGGCTCTCTAGGCAGGGAGGAGTCTCCTGAAACCAACCAGGC   3803
+
+c20232319-202   4512 CTGGCC---------AGTAAT------GGCAGCAATGT---GCT--GGAA   4541
+                     .|..||         |||.||      |||||   |||   |||  ||||
+c57370764-573   3804 TTTCCCTGGAGCTGAAGTCATGTATAGGGCAG---TGTATGGCTCAGGAA   3850
+
+c20232319-202   4542 ATTTGGGGGCTTGATAACCCGCAGCTGACCCA---------TCACCCTGG   4582
+                     .|              ||||   .||..||||         ||||..|  
+c57370764-573   3851 CT--------------ACCC---CCTCCCCCAAACTATTCTTCACTTT--   3881
+
+c20232319-202   4583 CCTATCTCTTGACACTTGCGAGGGGAGCTCTCTTCTCCCTGGCTGTTGG-   4631
+                       .|.|||.|.|||||||..|||.||  ||||..||..||.||| |||| 
+c57370764-573   3882 --AAACTCCTAACACTTGTAAGGTGA--TCTCCACTGTCTTGCT-TTGGG   3926
+
+c20232319-202   4632 --CCTGCAGAGAATGATACGCACGGCAGATCCCCGGAGCTGGTTGG-TGA   4678
+                       |||||| |.|.||.|..|.|.|.|||||.|||...|||..|||| .||
+c57370764-573   3927 CCCCTGCA-AAACTGCTGTGTAGGACAGATACCCAAGGCTTTTTGGAAGA   3975
+
+c20232319-202   4679 GCCCCTCAGGTGTGACACAACCTGGA-AAAGAA--TGGAAAGAGCCACTG   4725
+                     ..||||||||..||||||...||.|| ||||||  | |..|||||||   
+c57370764-573   3976 CACCCTCAGGAATGACACGGTCTAGAGAAAGAAACT-GCTAGAGCCA---   4021
+
+c20232319-202   4726 TCTCACTGTCTCAGTTGGGAAACACCAGCTCAGGGTCACTGAGCACCCA-   4774
+                     |.|||||      |.|||..|..||.||||||.||||||      |.|| 
+c57370764-573   4022 TTTCACT------GATGGAGAGGACTAGCTCAAGGTCAC------CTCAT   4059
+
+c20232319-202   4775 ------GGGGCAGCCCACTCAGGACCGGGCAGGTTCGGAG--AGAGGA--   4814
+                           ||.|||| |||.|.|||.|||   |.||   |||  |.||.|  
+c57370764-573   4060 GCCTTTGGTGCAG-CCAATTAGGGCCG---AAGT---GAGCTACAGAAAA   4102
+
+c20232319-202   4815 ----CACAGC-----TTCTCCCTTGGATCACTTC------TGCTGTT-AG   4848
+                         .|||||     ||.|||||       |.||      ||||.|| ||
+c57370764-573   4103 TAATAACAGCCCTCTTTTTCCCT-------CCTCCTTTATTGCTTTTCAG   4145
+
+c20232319-202   4849 GAATAACAGG-GCCTTTGTGGCTCTTGCAGGAGGACACTCTG------AA   4891
+                     ||     ||| |||||     .|.|||  ||.|    |.|||      |.
+c57370764-573   4146 GA-----AGGTGCCTT-----GTATTG--GGTG----CCCTGCTTTTTAC   4179
+
+c20232319-202   4892 CCAGGAGACTGTCCTGAGTGACCGGGGAGT----TAGACA---CA-----   4929
+                     ||    ||.||||.||.||||||    |||    ||.|||   ||     
+c57370764-573   4180 CC----GATTGTCTTGGGTGACC----AGTAGGCTAAACATGCCAATATT   4221
+
+c20232319-202   4930 ----------CTTGTATT------GGATTTA----ACCTCATTTTTCT--   4957
+                               |||||.||      .||||||    .||.|.|.||.||  
+c57370764-573   4222 TAAGCTTAACCTTGTTTTCCTTCGTGATTTAGAAGGCCACGTCTTCCTTT   4271
+
+c20232319-202   4958 ----CAG-------CAAGCT---CGGCAT--CTCCTT-----------TA   4980
+                         |||       |||.||   .|.|||  |.||||           ||
+c57370764-573   4272 AAAGCAGCTGTTCTCAATCTGTGGGTCATGACCCCTTTGGGGTCAGCCTA   4321
+
+c20232319-202   4981 CTTTTC--------TT----------CCTTTAAAGGCATAGGTGG-ATTG   5011
+                     ||||||        ||          |||.|||    |||..||| |||.
+c57370764-573   4322 CTTTTCCACAGGGATTGCCTAAGCCCCCTGTAA----ATATCTGGTATTT   4367
+
+c20232319-202   5012 CCAATTT---TT--------------AGTACCGGTATCGAGAAGC-----   5039
+                     .||.|.|   ||              |.|||.|.|||..||.|||     
+c57370764-573   4368 ACATTATGACTTGTAACAGTAACAAAATTACAGTTATGAAGTAGCAACAG   4417
+
+c20232319-202   5040 -------------GC---------------------GCAT-TGT------   5048
+                                  ||                     |||| |||      
+c57370764-573   4418 AAATAACTTTATGGCTAGGGTCATCACGTGAGGAATGCATGTGTAAAGGG   4467
+
+c20232319-202   5049 ------GAAA---------CA-----------GATTATA-----------   5061
+                           ||||         ||           |.|||.|           
+c57370764-573   4468 TCACGGGAAAGTTGAAAACCACTTCTCTGAAGGTTTAGAATCATCATTGA   4517
+
+c20232319-202   5062 -------------------TTCTGTTCAGTTTTG----CTATGTT---GA   5085
+                                        ||.||||| |.||||    .|.||||   ||
+c57370764-573   4518 GGTTTCTTTCCTTTGTGGTTTTTGTTC-GGTTTGAAGTATTTGTTTGAGA   4566
+
+c20232319-202   5086 TA---------------------------GAAC-----ACCCT------C   5097
+                     ||                           ||||     |.|||      |
+c57370764-573   4567 TAGGTTTACCTGTAGCCCAAGAGGGCCTGGAACTTCTAATCCTTCTGCCC   4616
+
+c20232319-202   5098 AG---ACCGTGTGGCT-------TGGGGACCCAGAA------------AA   5125
+                     ||   .||..|| |||       ||||.||.|||.|            ||
+c57370764-573   4617 AGCTATCCACGT-GCTGGGATTATGGGTACACAGCACCACACACAGCTAA   4665
+
+c20232319-202   5126 ATCC-----------AAAGAAAT------------TTAAAAAGCTACTGC   5152
+                     ||.|           .||.||||            |||||||.|.|    
+c57370764-573   4666 ATTCTTGGCTCTTAATAATAAATTAAGTAGGTGTATTAAAAATCAA----   4711
+
+c20232319-202   5153 CCTTATAATTGTCCCTGTTTTTA-------------GAAAAAAAAAACAG   5189
+                       |||||.||       |.||||             ||.|.|||.|| ||
+c57370764-573   4712 --TTATATTT-------TATTTAGGTATGATAGGCTGATAGAAAGAA-AG   4751
+
+c20232319-202   5190 ----GGAGAAGCCCAAAGCTGCAGAGGTCA---GGGAC------------   5220
+                         ||||  |||||         .|||||   |||||            
+c57370764-573   4752 TCTTGGAG--GCCCA---------GGGTCATGGGGGACAACGATTAATGC   4790
+
+c20232319-202   5221 --------------------------CCTGCTTCTAGAAAGCGT----GG   5240
+                                               |||||||||||.|    |    ||
+c57370764-573   4791 TAATCCCAGCATTTGTCTCTGCTTGTCCTGCTTCTAGGA----TTGTGGG   4836
+
+c20232319-202   5241 ACCAGTGTTCCTGGGGGG----GAGTTGTGACCTCTTGACCTTTTCTGTG   5286
+                     ||||.|.|||.|.|||.|    .|    |||.|||||||||         
+c57370764-573   4837 ACCAATATTCTTAGGGAGACAACA----TGATCTCTTGACC---------   4873
+
+c20232319-202   5287 ACTTTAGCCTCTC-AGAATCATCCAGGCCATGTC--CCCCTCTGGCTCCC   5333
+                        |.|||..||| |.|.||.|.||.|||.||||  ..|||.||...||.
+c57370764-573   4874 ---TCAGCTCCTCAACATTCGTTCAAGCCCTGTCTGGTCCTTTGAGACCT   4920
+
+c20232319-202   5334 TGATCTGTTTACTTCCTAGAAGGTTGGACCACAGGGGACCACGGGGTGCC   5383
+                     |||||..|||.|||||||||.|        .||||               
+c57370764-573   4921 TGATCCATTTGCTTCCTAGATG--------TCAGG---------------   4947
+
+c20232319-202   5384 GTTGTTCAGGCAGGCCACGGGCTA-GAGA--------ACCGAGAGAACAC   5424
+                       ||.||||   ||.||.|||.|| ||.|        ||  ||||.|..|
+c57370764-573   4948 --TGATCAG---GGACAAGGGATATGATAGAAAGCTTAC--AGAGGAAGC   4990
+
+c20232319-202   5425 AGCTGTCTCACCT----GCTGGGGAGGTTAAATTCTATGGACTTTGAAGT   5470
+                     |||     |.|||    .|.|||....|.|||.||.||||||.|||.||.
+c57370764-573   4991 AGC-----CCCCTAACAACAGGGCCATTCAAACTCCATGGACGTTGCAGC   5035
+
+c20232319-202   5471 GTTGGAGAAAATGTGAACCATTT--TTTGATAAATCAAACTCTTGCTGAT   5518
+                     ..|.|||.||| |.|||...|||  |||||||    ||||||.|.|  ||
+c57370764-573   5036 CCTTGAGGAAA-GGGAAAGGTTTTATTTGATA----AAACTCATCC--AT   5078
+
+c20232319-202   5519 TGGGCATTTTGTTGACCAAATTTCAATGGGAG----GTGTTTCTTGGTTA   5564
+                     .|||||...||||||.||||   |..||.|||    |||.|..|||||||
+c57370764-573   5079 CGGGCAAGCTGTTGAACAAA---CTGTGAGAGTTATGTGCTAATTGGTTA   5125
+
+c20232319-202   5565 ATAAGAAAACATCTTCATTTTATAAATAAAC-AGGACTGACCCCATAGGT   5613
+                     |..|||..|      ||||||| |||.||.| |||     ||.|||.||.
+c57370764-573   5126 AGGAGAGGA------CATTTTA-AAACAAGCAAGG-----CCTCATGGGG   5163
+
+c20232319-202   5614 GAACAGCTGCTGTAAAATATGTTTACACATCAAGACGTACAAATTTCTTG   5663
+                     |||||||||..|.|||.|||||.|..||.|||||||.||||.|.||| ||
+c57370764-573   5164 GAACAGCTGTGGCAAAGTATGTGTGAACTTCAAGACTTACACACTTC-TG   5212
+
+c20232319-202   5664 CTCCTCACTGGTCACATTTTGAAATGCTTTTGAGATAGAACAT-----CA   5708
+                     .|||.|| .|.||.|.|..|||...||.|     ..|||.|||     ||
+c57370764-573   5213 TTCCCCA-AGATCTCTTACTGACGCGCCT-----CCAGAGCATGGAAGCA   5256
+
+c20232319-202   5709 ACAGTTAGGAAAATGTATTA---TGTCTTTCATCTGAGAATAAAA-TTAA   5754
+                     |||.|.|.|.||||.||.||   ||.|||||..|...||.||||| ||||
+c57370764-573   5257 ACACTGAAGGAAATTTAATACAGTGGCTTTCGGCAAGGACTAAAACTTAA   5306
+
+c20232319-202   5755 TTTT-ACAAATCATATCATTTAACAT--GAGCTTTTTAA--------ATG   5793
+                     |||| |.||.|.||||.||||||.||  .|..|||||||        || 
+c57370764-573   5307 TTTTCATAATTTATATTATTTAAGATAAAAATTTTTTAATCACACAGAT-   5355
+
+c20232319-202   5794 GAGCTGCATTTACTGTGGACATTGGCCATCTCTTT-TGGCTGTGAAATAT   5842
+                            |.|||..||.|.||.||  .|.||.||| .||| .||.|.|||
+c57370764-573   5356 -------ACTTATGGTAGGCAGTG--AAACTGTTTGAGGC-ATGGAGTAT   5395
+
+c20232319-202   5843 GTTGTATATGAAAGGGAGGCATTAGTACATACACTTTAATTATGGAACGC   5892
+                     ||..||.||.||||.|    |.||.|..||||.|||.|.||.||||.|..
+c57370764-573   5396 GTACTAAATAAAAGAG----AATATTTAATACTCTTAAGTTGTGGAGCCT   5441
+
+c20232319-202   5893 TGGGACCAGGGCTT-CCAGAGGAGTC-CCCTGTGCATTACCCCAGCAGAC   5940
+                     ||||.|.|.||||| |||| ||| || .|||||             .|..
+c57370764-573   5442 TGGGGCTACGGCTTCCCAG-GGA-TCTGCCTGT-------------TGGG   5476
+
+c20232319-202   5941 ACTCACACAGCCTCTGATGAAATGCTTCAAGGGATGAGAAAACATGGTGT   5990
+                     |||....|.||||||.|..|.|.||||| .|||.||| |.|.|||.|..|
+c57370764-573   5477 ACTTGGCCTGCCTCTAACTACAGGCTTC-TGGGCTGA-ACATCATAGCTT   5524
+
+c20232319-202   5991 GAAGGGTAGCCCATTTCAA-TTTTCTTTTTTTTTTTTTTTTAAGAAAAAC   6039
+                     .|.||..||||.|.|.||| |||||                   |||..|
+c57370764-573   5525 TATGGAGAGCCTAGTCCAAGTTTTC-------------------AAACCC   5555
+
+c20232319-202   6040 CTGGCTTTCTGTTAATGCT-GAGTGTCAGATCCAG-TTCTTAG-TCCTAG   6086
+                     |..|.||.||||||||.|| .|...||||.| ||| ||||.|| ||| ||
+c57370764-573   5556 CCAGATTGCTGTTAATACTAAACACTCAGCT-CAGCTTCTCAGCTCC-AG   5603
+
+c20232319-202   6087 ATCCACGCAGGCATTGAATC-CTCTGTTTCACATTCCAGGGTCACCGCCC   6135
+                     |||..|.|||...||||||| .||||.|.||..|.|||...|.||.|||.
+c57370764-573   5604 ATCAGCACAGAGTTTGAATCTTTCTGCTACAGCTGCCAACATTACTGCCA   5653
+
+c20232319-202   6136 TGTGCCTCAGCGTC---TTCCTCAAGCTAGTGTTTG--TT----CTGTT-   6175
+                     .||||| ||..|||   ..||||||.|||  |||||  ||    ||.|| 
+c57370764-573   5654 GGTGCC-CACAGTCCAGACCCTCAAACTA--GTTTGCCTTGGGCCTCTTA   5700
+
+c20232319-202   6176 -CT-CTCGGC-TGTGAGGTAACCTCCAGCCTCTTCCATCTGTC-------   6215
+                      || |||..| |||||..|||    .||.||||  |||   ||       
+c57370764-573   5701 GCTGCTCCCCTTGTGAAATAA----GAGACTCT--CAT---TCAAGATTG   5741
+
+c20232319-202   6216 CACACACCTGTTGATGCGCCCCCGAG--GGCCAGGTCTTTCCTGAA-ACA   6262
+                     ||| ||||||.|.|..|.|||.| ||  |.||||         ||| ||.
+c57370764-573   5742 CAC-CACCTGCTTACACTCCCAC-AGGTGCCCAG---------GAATACC   5780
+
+c20232319-202   6263 TGGAAAGAGCCCACCCTTCCAATGTGGGCTGCCCGGGGAGCCCAG-CACT   6311
+                     .|||||                            .|||||||..| ||||
+c57370764-573   5781 AGGAAA----------------------------TGGGAGCCTGGACACT   5802
+
+c20232319-202   6312 CTGTTCCCTTCACACAGCCTG-AGCCTCAGTCTCTTTTTCGCAACCTTGT   6360
+                     |.||||   |||       || ||||||||||..||||.|.||       
+c57370764-573   5803 CGGTTC---TCA-------TGTAGCCTCAGTCATTTTTCCACA-------   5835
+
+c20232319-202   6361 GCTGT---------GGCGCTGATGTCCCGCTGATAA-GGATGTTCCTCCT   6400
+                        ||         |.|..|.|.|||..|||||.|| .|| |.|||||||
+c57370764-573   5836 ---GTAAGAGGAAAGCCATTAAGGTCGTGCTGACAACAGA-GCTCCTCCT   5881
+
+c20232319-202   6401 AAGGAATACTGATATTCCTGAAG---------------------TAAAAT   6429
+                     |..||...|.|.||.||||..||                     |.||||
+c57370764-573   5882 ACAGAGCTCGGGTACTCCTTCAGCTACGGAGTTGTGGTGCTCTATTAAAT   5931
+
+c20232319-202   6430 G--CT---AGGCTGCA-----GTTATTGAAGGAATCATGA-AAATACAAC   6468
+                     |  ||   |||.| ||     ||||||||.|   |.|||| |..|     
+c57370764-573   5932 GAACTGTAAGGAT-CAACTATGTTATTGATG---TTATGAGATGT-----   5972
+
+c20232319-202   6469 CTCCCAACGATAGCAGAGGCGGCAACAAAGACCATTGTGATTCC-AAGA-   6516
+                     ||||||||                ||        |.||.||.|| |||| 
+c57370764-573   5973 CTCCCAAC----------------AC--------TGGTTATACCTAAGAT   5998
+
+c20232319-202   6517 ---CTCGGTGCCATTGCCGTTGTCATAGTTGCTATCACGGAACTCTTAAC   6563
+                        .||..||||||||||   .|.|||.|||.||.|    ||.|.|| ||
+c57370764-573   5999 GTTGTCTATGCCATTGCC---CTGATAATTGTTACC----AATTATT-AC   6040
+
+c20232319-202   6564 AAGAAGTTTAGTGACA--CTG---TTTTAGAATGTTGCTGGGGGCTCAAC   6608
+                     ||.|    ||||.|||  |||   ||||||||...||||||.||.|.|||
+c57370764-573   6041 AAAA----TAGTTACAGGCTGTCATTTTAGAACTCTGCTGGAGGTTAAAC   6086
+
+c20232319-202   6609 AGAAAGTCCCCCAGTTCA--CACAT--ATACGTTTTCTCTTATTTTAAAA   6654
+                     |||||||..||.||..||  |.|.|  ||| |..|||..||..|      
+c57370764-573   6087 AGAAAGTATCCTAGGCCAGGCTCCTGGATA-GAGTTCGGTTGGT------   6129
+
+c20232319-202   6655 ATCAAGATATTTGCCCTTCT----CCAGGAATTGGG-------CCCCTCT   6693
+                         |||   |||.||..||    |.|.|...||||       ||||   
+c57370764-573   6130 ----AGA---TTGTCCACCTAGCACAAAGTTCTGGGGTTCTATCCCC---   6169
+
+c20232319-202   6694 TTTCATTCTGAAT-AATAA------------TATT---------------   6715
+                      ..||||..|||| |||||            ||||               
+c57370764-573   6170 -AGCATTAGGAATAAATAAATAGATACATTTTATTGGTTGACAATTAAAA   6218
+
+c20232319-202   6716 -----CTGCTCTCCTGTGGAA--ATGCTTAAAGAATTGAACAT-------   6751
+                          ||| |||.|||| |||  ||||.|..| ||...|||||       
+c57370764-573   6219 TGGTACTG-TCTGCTGT-GAAGCATGCCTGTA-AACCCAACATTCAGGAG   6265
+
+c20232319-202   6752 --------AGAATAACCATGAGATCCAG--CAATC----CCACATCTAGA   6787
+                             ||||.||.|..|||.|||||  ||.||    |.||||   ||
+c57370764-573   6266 GTACAGGAAGAAGAATCGGGAGTTCCAGGCCAGTCTGAGCTACAT---GA   6312
+
+c20232319-202   6788 TAC---CTAAGAGACTTGAAAGCAGGGTCTTGAAA---AA--ATAGTAGT   6829
+                     .||   ||.|||.|  |.|||.|||.|.|  .|||   ||  ||||.|.|
+c57370764-573   6313 GACTGTCTCAGAAA--TAAAAACAGCGCC--CAAAGCTAACCATAGCAAT   6358
+
+c20232319-202   6830 ATA--CCCTCACT---CACAGTAGTGTTACAACAGCCAAAAGCTGG----   6870
+                     |||  ||...|||   |.||.||.||||               |||    
+c57370764-573   6359 ATAATCCAAGACTGTACCCACTACTGTT---------------TGGTACT   6393
+
+c20232319-202   6871 --AAGCA-----------------ACCCAGTGT---------------CC   6886
+                       .||||                 .|.||||||               ||
+c57370764-573   6394 TTGAGCATGGTGTTTCTCTCCTTTTCACAGTGTTTTACTCTTGTCTTCCC   6443
+
+c20232319-202   6887 ATT----------------GA--TAG--------ATGAA-----------   6899
+                     |||                ||  |||        ||.||           
+c57370764-573   6444 ATTTCCTTTTTGTTTTACAGATTTAGGCCTCTCCATTAACCTTCTATCTG   6493
+
+c20232319-202   6900 -------------------TGG--------------------------GT   6904
+                                        |||                          .|
+c57370764-573   6494 AGTTGTCCCCATCTCTCTGTGGCTTTAGGTCCTTCACCGTCACCTGCCCT   6543
+
+c20232319-202   6905 AAACAAAATGGGGAG------------------------CATCCA----T   6926
+                     .|||||      |||                        |.||||    |
+c57370764-573   6544 TAACAA------GAGACACAATTTTATAAAACCCTCCTCCCTCCACTTGT   6587
+
+c20232319-202   6927 AC-----------GGTGGAAT--AGT-------------------ATTCA   6944
+                     ||           |.||.|||  |||                   |||.|
+c57370764-573   6588 ACAAATCCTTGATGATGAAATTCAGTTCTTCTTTTTATTAAAAACATTAA   6637
+
+c20232319-202   6945 G------CC--TCCA----AAATAAGGAAATCCTGTCACACGCAGC--AA   6980
+                     |      ||  ||||    ||||.|  |||||.|..||   .||||  ||
+c57370764-573   6638 GGTTTAACCAGTCCAGGCTAAATTA--AAATCATTGCA---TCAGCTTAA   6682
+
+c20232319-202   6981 CA-------TGG-----------------ATGAACCTCGAGGACATTATG   7006
+                     ||       |||                 |||..|||||.|        |
+c57370764-573   6683 CACCTGTACTGGGGTTGAGGCTTTAGCTAATGTTCCTCGTG--------G   6724
+
+c20232319-202   7007 CT--GAGTGAAATAAGCCAGTTCCAGAAAGACAAGTGCCGTGGATTTCTA   7054
+                     ||  |||   |||..|||.||||..|  .||||..|..|      ||.||
+c57370764-573   6725 CTCGGAG---AATCCGCCTGTTCTGG--TGACACCTCTC------TTGTA   6763
+
+c20232319-202   7055 CTTATA--------TGAGGAC--TGTAGAGCAGTCAAAATCATAGATGCA   7094
+                     ||.|.|        |.|||||  .|||   |.||        |||     
+c57370764-573   6764 CTCACAGTACGTGGTCAGGACCTGGTA---CCGT--------TAG-----   6797
+
+c20232319-202   7095 GAAAGTAGAATG---GTGGTT-GCTAGGGGCTGGGGAGGGGGGAATGGAG   7140
+                           |.||||   .||||| .||.||    |||||||||..|      
+c57370764-573   6798 ------ACAATGACCATGGTTAACTTGG----GGGGAGGGGCCA------   6831
+
+c20232319-202   7141 AATTGTTGCTTAATATTAATACC-CAACCAAGGGCAAAAAAAACAATTTC   7189
+                          .||||           || ||.|||    |..|.||||    |||
+c57370764-573   6832 -----GTGCT-----------CCTCACCCA----CTTAGAAAA----TTC   6857
+
+c20232319-202   7190 TC---AGAAAGCCAACGGAACTAGGAGTCGGACTTTTCCAACAGGTCTGC   7236
+                     ||   |||   |||  |.|||.||    .||||||            ||.
+c57370764-573   6858 TCCTGAGA---CCA--GCAACAAG----AGGACTT------------TGG   6886
+
+c20232319-202   7237 TGACTTTCT----------AAGTCTA-CAAAAGATGTTGCCTTGGGG---   7272
+                     |||||.|||          ||||..| .||||   |||||||..|||   
+c57370764-573   6887 TGACTCTCTTATCCCCTCCAAGTGGATGAAAA---GTTGCCTGAGGGTCC   6933
+
+c20232319-202   7273 ------CACA--------CAGT------------------AGCACCCCAC   7290
+                           | ||        ||||                  |..|||||||
+c57370764-573   6934 TTGTTTC-CAAGGATGTCCAGTGTCTGGTCTGTGTCATTCATTACCCCAC   6982
+
+c20232319-202   7291 ------------------TCT--------GAG---GCCAAGGCA------   7305
+                                       |||        |||   ||||| .||      
+c57370764-573   6983 ATTCATACACACCTTTTTTCTTTTTTTTAGAGCTTGCCAA-CCAATTCTT   7031
+
+c20232319-202   7306 -CTCCTGG-----GTGG-----GGAGAGGCTGCCTCCATTT---------   7335
+                      ||.||.|     ||||     |.||.|||||      |||         
+c57370764-573   7032 TCTTCTTGGTCATGTGGGATAAGAAGTGGCTG------TTTGTAGACAGA   7075
+
+c20232319-202   7336 ACCCCACTGCTTCCAAGAGCAGCC------AGCGTAATGCAGAGG-----   7374
+                     |..||||||     |||||.|..|      ||.||.||...||.|     
+c57370764-573   7076 AAGCCACTG-----AAGAGAACTCTTTAAAAGTGTGATTAGGATGCTGAA   7120
+
+c20232319-202   7375 --------------------GGCAGGTGTGTGGGCCAGAGC-GTGAGG--   7401
+                                         |||...||.|||||   |.|| ||||||  
+c57370764-573   7121 CTTAGCTCTCTACAACTGATGGCTTCTGGGTGGG---GTGCAGTGAGGGA   7167
+
+c20232319-202   7402 ---------------TCCAGGGGGCTGGC--CTGAGAAGGGGAGGCTGAC   7434
+                                    |..|||||||.|||  ||||      |||..||| 
+c57370764-573   7168 AGGACTGAGTTCTTTTTGAGGGGGCAGGCCACTGA------GAGTTTGA-   7210
+
+c20232319-202   7435 AGGTGTCCCTCACCCACTCAGGGATAAGAAAG----------TCT-----   7469
+                              |||..|.|| ||.||..|.|.||          |||     
+c57370764-573   7211 ---------TCATGCTCT-AGTGAGTATATAGCTATTGGTTATCTTTTTC   7250
+
+c20232319-202   7470 -----------------------------------------------AAG   7472
+                                                                    |||
+c57370764-573   7251 TTCTCTTTTAACTTTTCTTTTCATTTTTACTTTTAGGGGGAGGGCACAAG   7300
+
+c20232319-202   7473 ACCGGTGA------AGAGAAGGACTTTG----------GTGACTCCCTC-   7505
+                     |..||.||      |..||||||  |||          ||||     || 
+c57370764-573   7301 AATGGGGAGCAAACATGGAAGGA--TTGGGAAGTGAGTGTGA-----TCA   7343
+
+c20232319-202   7506 --ATGCCCCGACAGCCTGTAAAAAAAATGCCTGAG--------------T   7539
+                       |||      |||..|||   .|||.|.||||||              .
+c57370764-573   7344 GGATG------CAGGATGT---GAAAGTCCCTGAGAATCAATAACAGCAA   7384
+
+c20232319-202   7540 GAATTACTC----TGGGGAG----------AGGTCTTTTACTTTCTGA--   7573
+                     ||.|||| |    |.|||||          ||.|||||.....|| ||  
+c57370764-573   7385 GAGTTAC-CACCATAGGGAGGCAGTTCTCCAGCTCTTTGGGGGTC-GAAG   7432
+
+c20232319-202   7574 -AAATTTTCAAAGGGTCCATGATACCTC--------------CTT----T   7604
+                      ||..|||||.|||||.|||.|.|.|.|              .||    |
+c57370764-573   7433 GAACCTTTCACAGGGTTCATAAGATCACTGGAAGAAAGAGATGTTTACAT   7482
+
+c20232319-202   7605 TATTTTTCAAAGGAGAATGCTGACCAATTCTATAGTCTTCTGTGGCAGTA   7654
+                     |||..||||.|..|||||      |||...||.||||.|     |.||||
+c57370764-573   7483 TATGATTCATAACAGAAT------CAAAGTTACAGTCAT-----GAAGTA   7521
+
+c20232319-202   7655 TAGGCTAAGAAGGCAGCTGTTTGAATTATAGCAAAAGTGTCCATAGCTG-   7703
+                        ||.|..||            |||       |||||.|  ||.|||| 
+c57370764-573   7522 ---GCAACAAA------------AAT-------AAAGTTT--ATGGCTGG   7547
+
+c20232319-202   7704 -----------------TAAAGAAGTCCTTTTT------CTCTCGGGAT-   7729
+                                      |.|.|||   ||.|.|      .||.|.|||| 
+c57370764-573   7548 GGGGTGTCACCACAACATGAGGAA---CTATCTTAGAGGGTCCCAGGATT   7594
+
+c20232319-202   7730 --------AGAGAA--TCAG-TGCATTAACAGGGAAGGAGG---------   7759
+                             .|||.|  |.|| ||| ||.|.|.|||||.|||         
+c57370764-573   7595 AGGACTGCTGAGGACCTTAGATGC-TTCAGATGGAAGAAGGTCTTTTCTT   7643
+
+c20232319-202   7760 ------------CACT-----GGGTGGCAAGGGCAGCAGATCCCCTCCTC   7792
+                                 |.||     |||     ||||||||         |||.
+c57370764-573   7644 TGTCAAACCGGTCTCTCAGAAGGG-----AGGGCAGC---------CCTG   7679
+
+c20232319-202   7793 GGCTGC------CCCTGGCGCAAACAGGACCCG-------CTGGGGAGGC   7829
+                     ||||||      ||||.|.|| |||||.|||||       |||    .||
+c57370764-573   7680 GGCTGCTGTGGTCCCTAGTGC-AACAGCACCCGTATTTTTCTG----AGC   7724
+
+c20232319-202   7830 AA-AGCC--AACGTGGGCTTGGTTATACTGCAGATATATTGGAGAACAAT   7876
+                     || ||||  .||.| |||.||.||..||  ||         |||||||| 
+c57370764-573   7725 AACAGCCGACACAT-GGCCTGCTTCCAC--CA---------GAGAACAA-   7761
+
+c20232319-202   7877 GGAG-CAATCTTTATAAAAGATTGTGAATCTCTTTTAGAAGAGGCTTTCT   7925
+                     |||| .|.|.|.|.|.|||..||||||.||||||||.||||||       
+c57370764-573   7762 GGAGAGAGTTTGTGTCAAATCTTGTGATTCTCTTTTGGAAGAG-------   7804
+
+c20232319-202   7926 CAGTAGTTGACAATATTAGATTTCCTAAGAACACATGA--GTATGGCAGA   7973
+                       ||||||||..||||||..|||||.||||.|||.|||  |||  |||||
+c57370764-573   7805 --GTAGTTGAAGATATTAACTTTCCAAAGAGCACGTGATGGTA--GCAGA   7850
+
+c20232319-202   7974 TGATGTTATTCAAGCTAGAATTAAGTATAAATAT--ATTGTATAAAGTAA   8021
+                     || .|..||||||||||    .||.|||||||||  |.|..|.||.||.|
+c57370764-573   7851 TG-GGCCATTCAAGCTA----AAAATATAAATATACACTCCAAAAGGTCA   7895
+
+c20232319-202   8022 GCTAAT---AAGTATTTTGTTTTTTCCCTTCTTAGTCTGTTGGGTAAACT   8068
+                     ..||||   |      ||||||     |..|.|||||||.||.||.|||.
+c57370764-573   7896 ATTAATGGCA------TTGTTT-----CACCGTAGTCTGCTGAGTTAACC   7934
+
+c20232319-202   8069 AGAATATGTCATTCCAATGAAAGTTTTTTTTCC-----------CCCTGA   8107
+                     |||||||||.||||.|||||..|.|||||||.|           .|.||.
+c57370764-573   7935 AGAATATGTGATTCTAATGAGTGGTTTTTTTGCTGTGTTTTGTGGCTTGG   7984
+
+c20232319-202   8108 ATAAGCTATTTAATGAATAAAATCTACTGTGGAAGCTAGGTGAGCCCTAG   8157
+                     |||||||....|||||.|||            ||.||.||||    ||.|
+c57370764-573   7985 ATAAGCTGCCCAATGACTAA------------AACCTGGGTG----CTTG   8018
+
+c20232319-202   8158 GAGAAAGCCAATCTGGTGTAATGGAT-------CAGACAGTGATTAAAAG   8200
+                     .|.|||.|||..|||.|.|||.|.||       |||  |||||..|||| 
+c57370764-573   8019 AATAAAACCACCCTGATCTAAGGTATGTGTTTGCAG--AGTGAGGAAAA-   8065
+
+c20232319-202   8201 GGAGCTTGGAAATGAAT----TTGTTTACCTGTGTTCCTGGATTAATG-C   8245
+                     |||.|||  .|.||..|    |||.|||||||||||...|..||||.| |
+c57370764-573   8066 GGAACTT--CAGTGTGTGTGCTTGCTTACCTGTGTTGGCGAGTTAAAGCC   8113
+
+c20232319-202   8246 AAACAGCAATCTAATATATGA--TCTGAATTTAGTTGAATCAAGATGATC   8293
+                     |||||||||.|||||.||..|  ||||..||.||||||||          
+c57370764-573   8114 AAACAGCAACCTAATGTACAACCTCTGTGTTCAGTTGAAT----------   8153
+
+c20232319-202   8294 CTAACCCCTCTTCCAAAAAGTT--GTTTCTGACCAAAAACATGATAA---   8338
+                               |||| |..||||  |||.|         ||.||| ||   
+c57370764-573   8154 ----------TTCC-ATGAGTTACGTTGC---------ACGTGA-AAGGC   8182
+
+c20232319-202   8339 ----TTTTTTT------TTTTTCGAGA-CAGAGTCTCGCTCTGTCACCCA   8377
+                         ||.||.|      |.|   ||.| || |||.||..|          
+c57370764-573   8183 GCGGTTATTATGCAAACTGT---GAAATCA-AGTATCTAT----------   8218
+
+c20232319-202   8378 GGCTGGGGTGCAGTGGTGCAATCTCGGCTCACTGCAA-GCTCCACC----   8422
+                            .||||||     ||      ||.|.||.|| .||.||||    
+c57370764-573   8219 -------TTGCAGT-----AA------CTTATTGAAACCCTTCACCTAAT   8250
+
+c20232319-202   8423 --------TCCCTGGTTCACGCCATTCTCCTGCCTCAGCCTCCCAAGTAG   8464
+                             |..||||||.|        |..||.||||          |||
+c57370764-573   8251 AAGGGAGTTGTCTGGTTGA--------TGTTGTCTCA----------TAG   8282
+
+c20232319-202   8465 CTGGGACTACAGGTGCCCGCCACCACGCCAGGCTAATTTT------TTTT   8508
+                      .||||.||.|.|                     ||.|||      |.||
+c57370764-573   8283 -AGGGAATAAATG---------------------AAGTTTGTCTACTATT   8310
+
+c20232319-202   8509 TCGTATTGTTAGTAGAGATGGGGTTTTACCTTGTTAGCCAGGATGGTCTC   8558
+                     ||.||||..||||                         |||         
+c57370764-573   8311 TCTTATTTGTAGT-------------------------CAG---------   8326
+
+c20232319-202   8559 GATCTCCTGACCTCATGATCTGCCCGCCTCTGCCTCCCAAAGTGCTGGGT   8608
+                                                           ||||.|      
+c57370764-573   8327 --------------------------------------AAAGAG------   8332
+
+c20232319-202   8609 TTCCAGGCGTGAGCCACCACACCTGGCCAAACATGAGAATGCTT-TCAGG   8657
+                         ||            ||||||                  || |||  
+c57370764-573   8333 ----AG------------ACACCT------------------TTATCA--   8346
+
+c20232319-202   8658 GTGGGCATTCCTTTTCAGAAAACCTCAG--ACTAGCAGGGCAGGGAGTTG   8705
+                      ||||||||||||.|||||||  |||||  |.||||||...|||.|.|||
+c57370764-573   8347 -TGGGCATTCCTTCTCAGAAA--CTCAGTAAATAGCAGACTAGGCAATTG   8393
+
+c20232319-202   8706 AAGTTGTAAAGTATCACAGCCT-ACCTTAAAATAAAGTTGGCTTCAGTCT   8754
+                     |     .|.||..|||||   | ||||||.|||         ||||.|.|
+c57370764-573   8394 A-----GACAGATTCACA---TGACCTTATAAT---------TTCACTAT   8426
+
+c20232319-202   8755 -GTAATATCACCGTGTCACTT--TCCCAAGGCCTCTTCCACTAATAAACC   8801
+                      |||.|       .||||..|  |.|..|||...||||.||||||.|.| 
+c57370764-573   8427 GGTATT-------GGTCAGATAATTCTGAGGTACCTTCTACTAATTAGC-   8468
+
+c20232319-202   8802 TTTGCCCACTTTTGTCTGTTTAGGGATAAACCAGCGCAATGGATTGGGGG   8851
+                      |||.....||||||.||||||.|.||||.||.||.|.|||||.||||||
+c57370764-573   8469 -TTGGTTCTTTTTGTATGTTTAAGAATAAGCCTGCACGATGGACTGGGGG   8517
+
+c20232319-202   8852 ACGCTGCACACTTTCATCGGGGGTGTCAACAAACACTCCACCAGCATCGG   8901
+                     ||.||||||||..|||||||.||.||.|||||.|||||.||||||||.||
+c57370764-573   8518 ACCCTGCACACCGTCATCGGTGGCGTGAACAAGCACTCTACCAGCATAGG   8567
+
+c20232319-202   8902 GAAGGTGTGGATCACAGTCATCTTTATTTTCCGAGTCATGATCCTCGTGG   8951
+                     |||||||||||||||.|||||||||||||||||||||||||||||.||||
+c57370764-573   8568 GAAGGTGTGGATCACGGTCATCTTTATTTTCCGAGTCATGATCCTAGTGG   8617
+
+c20232319-202   8952 TGGCTGCCCAGGAAGTGTGGGGTGACGAGCAAGAGGACTTCGTCTGCAAC   9001
+                     |||||||||||||||||||||||||.|||||.||||||||.|||||||||
+c57370764-573   8618 TGGCTGCCCAGGAAGTGTGGGGTGATGAGCAGGAGGACTTTGTCTGCAAC   8667
+
+c20232319-202   9002 ACACTGCAACCGGGATGCAAAAATGTGTGCTATGACCACTTTTTCCCGGT   9051
+                     ||.|||||.||.||.|||||.||.||.|||||||||||.||.||||||||
+c57370764-573   8668 ACTCTGCAGCCAGGGTGCAAGAACGTCTGCTATGACCATTTCTTCCCGGT   8717
+
+c20232319-202   9052 GTCCCACATCCGGCTGTGGGCCCTCCAGCTGATCTTCGTCTCCACCCCAG   9101
+                     |||.|||||||||||.||||||||.|||||||||||.||.||.|||||||
+c57370764-573   8718 GTCTCACATCCGGCTCTGGGCCCTGCAGCTGATCTTTGTGTCTACCCCAG   8767
+
+c20232319-202   9102 CGCTGCTGGTGGCCATGCATGTGGCCTACTACAGGCACGAAACCACTCGC   9151
+                     |.|||.|||||||||||||.||||||||||||||.||.|||||..|.||.
+c57370764-573   8768 CCCTGTTGGTGGCCATGCACGTGGCCTACTACAGACATGAAACTGCCCGA   8817
+
+c20232319-202   9152 AAGTTCAGGCGAGGAGAGAAGAGGAATGATTTCAAAGACATAGAGGACAT   9201
+                     |||||.|..||.||.||||||||.||.||.||.||||||.|.||||||||
+c57370764-573   8818 AAGTTTATACGTGGGGAGAAGAGAAACGAGTTTAAAGACCTGGAGGACAT   8867
+
+c20232319-202   9202 TAAAAAGCAGAAGGTTCGGATAGAGGGGTCGCTGTGGTGGACGTACACCA   9251
+                     .|||..|||||||||.||.||.|||||.||.|||||||||||||||||||
+c57370764-573   8868 CAAACGGCAGAAGGTGCGCATTGAGGGCTCCCTGTGGTGGACGTACACCA   8917
+
+c20232319-202   9252 GCAGCATCTTTTTCCGAATCATCTTTGAAGCAGCCTTTATGTATGTGTTT   9301
+                     |||||||.||.|||||.||||||||.|||||.|||||.|||||||||||.
+c57370764-573   8918 GCAGCATTTTCTTCCGCATCATCTTCGAAGCCGCCTTCATGTATGTGTTC   8967
+
+c20232319-202   9302 TACTTCCTTTACAATGGGTACCACCTGCCCTGGGTGTTGAAATGTGGGAT   9351
+                     ||||||||.|||||||||||||||||.||||||||..||||||||||.||
+c57370764-573   8968 TACTTCCTCTACAATGGGTACCACCTACCCTGGGTACTGAAATGTGGCAT   9017
+
+c20232319-202   9352 TGACCCCTGCCCCAACCTTGTTGACTGCTTTATTTCTAGGCCAACAGAGA   9401
+                     |||||||||||||||.||.||.||||||||.|||||.||||||||.||||
+c57370764-573   9018 TGACCCCTGCCCCAATCTCGTGGACTGCTTCATTTCGAGGCCAACTGAGA   9067
+
+c20232319-202   9402 AGACCGTGTTTACCATTTTTATGATTTCTGCGTCTGTGATTTGCATGCTG   9451
+                     |.||.|||||.||..|||||||||||||.||.||.|||||||||||||||
+c57370764-573   9068 AAACGGTGTTCACTGTTTTTATGATTTCCGCATCCGTGATTTGCATGCTG   9117
+
+c20232319-202   9452 CTTAACGTGGCAGAGTTGTGCTACCTGCTGCTGAAAGTGTGTTTTAGGAG   9501
+                     ||.||.|||||.||||||||.|||||||||||.|||.||||.||||||||
+c57370764-573   9118 CTCAATGTGGCCGAGTTGTGTTACCTGCTGCTTAAATTGTGCTTTAGGAG   9167
+
+c20232319-202   9502 ATCAAAGAGAGCACAGACGCAAAAAAATCACCCCAATCATGCCCTAAAGG   9551
+                     |||.||.|||.|||||.||||.|.|||.||||||||.||||||||.||.|
+c57370764-573   9168 ATCCAAAAGAACACAGGCGCAGAGAAACCACCCCAACCATGCCCTGAAAG   9217
+
+c20232319-202   9552 AGAGTAAGCAGAATGAAATGAATGAGCTGATTTCAGATAGTGGTCAAAAT   9601
+                     ||||.||||||||||||||||||||||||||.|||||||||||.||.|||
+c57370764-573   9218 AGAGCAAGCAGAATGAAATGAATGAGCTGATCTCAGATAGTGGCCAGAAT   9267
+
+c20232319-202   9602 GCAATCACAGGTTTCCCAAGCTAAACATTTCAAGGTAAAATGTAGCTGCG   9651
+                     |||||||||.||||||||||.|||.||.||||||||.||.|||||.||.|
+c57370764-573   9268 GCAATCACAAGTTTCCCAAGTTAAGCACTTCAAGGTCAAGTGTAGGTGAG   9317
+
+c20232319-202   9652 TCATAAGGAGACTTCTG-----------TCTTCTCCAGAAGGCAATACCA   9690
+                     .|         ||||||           ||||    .|.||.|||.|...
+c57370764-573   9318 CC---------CTTCTGAGCATGTACCCTCTT----TGTAGACAACATTG   9354
+
+c20232319-202   9691 ACCTGAAAGTTCCTTCTGTAGCCTGAAGAGTTTG----TAAATGACTTTC   9736
+                     |.||||.|..||||.||.||| .|.|||||||||    |||.||||  ||
+c57370764-573   9355 ATCTGACAACTCCTCCTCTAG-GTCAAGAGTTTGTCTATAAGTGAC--TC   9401
+
+c20232319-202   9737 ATAATAAATAGACACTTGAGTTAACTTTTTGTAGGATACTTGCTCCATTC   9786
+                     |||..||.|.||.|||||||||...||.||||||.|.||.||..|..|||
+c57370764-573   9402 ATAGAAAGTGGATACTTGAGTTCGATTATTGTAGAACACCTGAGCTGTTC   9451
+
+c20232319-202   9787 ATACACAACGTAA-TCAAATATGTGGTCCATCTCTGAAAACAAGAGACTG   9835
+                     ||||||||..||| |||||..|||||||.||||||||||||.| ||.|..
+c57370764-573   9452 ATACACAATATAAGTCAAAATTGTGGTCTATCTCTGAAAACCA-AGCCCT   9500
+
+c20232319-202   9836 CTTGACAAAGGAGCATTGCAGTCACTTTGACAGGTTCCTTTTAAGTGGAC   9885
+                     |.||||||..|.||.|||.||||||.|.||||.||.|    ||.|||.||
+c57370764-573   9501 CGTGACAACTGGGCCTTGGAGTCACCTGGACAAGTCC----TATGTGAAC   9546
+
+c20232319-202   9886 TCTCTGACAAAGTGGGTACTTTCTGAAAATTTATATAACTGTTGTTGATA   9935
+                     |.|.||||    |..|||.||.||||||..|||||||||  |||||.|||
+c57370764-573   9547 TATATGAC----TTAGTATTTCCTGAAACCTTATATAAC--TTGTTTATA   9590
+
+c20232319-202   9936 AGGAAC-ATTTATCCAGGAATTGATACGTTTATTAGGAAAAGATATTTTT   9984
+                     |.|||| |||||||.|..||||.|||..|||||.||  .|||||||||||
+c57370764-573   9591 AAGAACAATTTATCTAAAAATTAATAGTTTTATCAG--TAAGATATTTTT   9638
+
+c20232319-202   9985 ATAGGCTTGGATGTTTTTAGTTCTGACTTTGAATTTATATAAAGTATTTT  10034
+                     |||||..||.|| .||||||||||||||||||||||||||||||||||||
+c57370764-573   9639 ATAGGAATGAAT-ATTTTAGTTCTGACTTTGAATTTATATAAAGTATTTT   9687
+
+c20232319-202  10035 TATAATGACTGGTCTTCCTTACCTGG--AAAAACATGCGATGTTAGTTTT  10082
+                     |.||||||||||.|||||||||||||  |||||.||.|.|.|||||.|||
+c57370764-573   9688 TTTAATGACTGGCCTTCCTTACCTGGAAAAAAATATACAAAGTTAGCTTT   9737
+
+c20232319-202  10083 AGAATTACACCACAAGTATCTAAATTTGGAACTTACAAAGGGTCTATC--  10130
+                     |.||.|.||||.||||||||||||.||.||||||..||||||||||.|  
+c57370764-573   9738 ACAAGTGCACCCCAAGTATCTAAAGTTTGAACTTGTAAAGGGTCTAGCAG   9787
+
+c20232319-202  10131 -TTGTAAATATTGTTTTGCA--TTGTCTGTTGGCAAATTTGTGAACT-GT  10176
+                      ||..|||||||||||| ||  .||||||..|.||..||..|||.|| ||
+c57370764-573   9788 ATTACAAATATTGTTTT-CACTCTGTCTGAGGACAGTTTAATGAGCTAGT   9836
+
+c20232319-202  10177 CATGATACGCTTAAGGTGGAAAGTGTTCATTGCACAATATATTTTTACTG  10226
+                      .|| |.|.||||||||||.|.||||||||||.|||||||| ..||.|.|
+c57370764-573   9837 -GTG-TGCTCTTAAGGTGGGATGTGTTCATTGGACAATATA-CATTGCCG   9883
+
+c20232319-202  10227 CTTTCTGAATGTAGACGGAACAGTGTGGAAGCAGAAGG----------CT  10266
+                     .||.||||||.|     |||     |||||.| |||||          ||
+c57370764-573   9884 ATTGCTGAATAT-----GAA-----TGGAATC-GAAGGAAGTGGGACCCT   9922
+
+c20232319-202  10267 TTTTTAACTCATCCGTTTGCCA---------ATCATTGCAAACAACTGAA  10307
+                     ||||.||.|.|.||  ||.|||         |.||.||||.|||      
+c57370764-573   9923 TTTTAAAATGAGCC--TTTCCACCTATGGTGAACAGTGCAGACA------   9964
+
+c20232319-202  10308 ATGTGGATGTGATTGCCTCAATAAAGCTCGTCCCCATTGCTTAAGCCTTC  10357
+                        ||.||.||||..|..||||||||||.|.|||..||||||.|      
+c57370764-573   9965 ---TGAATATGATCTCGCCAATAAAGCTTGACCCTGTTGCTTCA------  10005
+
+c20232319-202  10358 A  10358
+                      
+c57370764-573  10005 -  10005
+
+
+#---------------------------------------
+#---------------------------------------
