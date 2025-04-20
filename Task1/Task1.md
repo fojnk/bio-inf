@@ -25,14 +25,14 @@ DFNB \- это группа наследственных заболеваний,
 
 * **Человек**  
   Ссылка: [https://www.ncbi.nlm.nih.gov/gene/2706](https://www.ncbi.nlm.nih.gov/gene/2706)  
-* **Мышь**
+* **Мышь**  
   Ссылка: [https://www.ncbi.nlm.nih.gov/gene/14619](https://www.ncbi.nlm.nih.gov/gene/14619)
 
 ### **GJB6** 
 
 * **Человек**  
   Ссылка: [https://www.ncbi.nlm.nih.gov/gene/10804](https://www.ncbi.nlm.nih.gov/gene/10804)  
-* **Мышь**
+* **Мышь**  
   Ссылка: [https://www.ncbi.nlm.nih.gov/gene/14623](https://www.ncbi.nlm.nih.gov/gene/14623)
 
 ## **4\. Выравнивание**
