@@ -1,0 +1,54 @@
+CLUSTAL format alignment by MAFFT (v7.511)
+
+
+DQ215299.1 -aggctgctgatcgtctacccctggacccagaggttcttcgcctcctttgggaacctgtc
+XM_0503328 -aggctgctgatcgtctacccctggacccagaggttcttcgcttcctttgggaacctgtc
+XM_0316096 -aggctgctgattgtctacccctggacccagaggttctttgcgtcctttgggaacctctc
+XM_0098908 -aggctgctgattgtctacccctggacccagaggttcttttcttcctttggcaacctctc
+XM_0644416 -aggctgctgatcgtctacccctggacccagaggttcttcgcttccttcgggaacctctc
+XM_0633933 -aggctgctgatcgtctacccctggacacagaggttctttgacaacttcgggaacctgtc
+XM_0647048 -aggctgctgatcgtctacccctggacccagaggttcttctctgacttcggcaacctgtc
+XM_0588257 -aggctgctgatcgtctacccctggacccagaggttcttctctgacttcgggaacctgtc
+XM_0279088 -aggctgctgatcgtctacccctggacccagaggttcttctccaacttcgggaacctgtc
+XM_0597251 taggctgctgttcatctacccctggaccaagaagttttttcttcacttcgggaacctctc
+BC152793.1 ------------------------------------------------------------
+                                                                       
+
+DQ215299.1 cagccccaccgccgtcctgggcaaccccaaggtgcag---gcccatggcaagaaggtgct
+XM_0503328 tggcgccaccgccatcctgggtaaccccatggtgcgt---gcccacggcaagaaggtgct
+XM_0316096 cagccccaccgccatccttggcaaccccatggtccgt---gcccatggcaagaaagtgct
+XM_0098908 cagcgccaccgccgtcatcggcaaccccatggtccgt---gcccacggcaagaaagtgct
+XM_0644416 cagcgccactgccatcactggcaaccccatggtccgc---gcccacggcaagaaagtgct
+XM_0633933 cagccccactgccatcctgggcaaccccaaggtgcgt---gcccacggcaagaaggtgct
+XM_0647048 cagccccacggccatcatcggcaaccccaaggtgcgt---gcccacggcaagaaggtgct
+XM_0588257 cagccccacggccatcgtcggcaaccccaaggtgcgt---gcccacggcaagaaggtgct
+XM_0279088 cagccccacggccatcgttggcaaccccaaggtccgt---gcccacggcaagaaggtgct
+XM_0597251 cagccctaccgccatcataaacaaccccaaagtgcgt---gctcatggcaagaaggtgct
+BC152793.1 ------------------------caccatggtgcacctgactgatgctgagaaggctgc
+                                   * *** .** *.    .*. *.* ..****.*.  .
+
+DQ215299.1 cacctccttcggggaagccgtcaagaacctggacagcatcaagaacaccttttcccagct
+XM_0503328 cacctccttcggggacgccgtcaagaacctggacagcatcaagaacaccttcgcccagct
+XM_0316096 cacctccttcggggatgctgtgaagaacctggacaacatcaagaacaccttctcccaact
+XM_0098908 cacctccttcggggaagccgtcaagaaccttgacaacatcaagaacacctttgcccagct
+XM_0644416 cacctccttcggggaagccgtcaagaacctggacaacatcaaggcgaccttcgcccagct
+XM_0633933 cacctccttcggggaggccatcaagaacctggacaacctcaagggcacctactccaagct
+XM_0647048 cacctccttcggggaggccatcaagaacctggacaacctcaagggcacctactccaagct
+XM_0588257 cacctccttcggggaggccatcaagaacctggacaacctcaagggcacctactccaagct
+XM_0279088 cacctccttcggggaggccatcaagaacctggacaacctcaaggcaacctactccaagct
+XM_0597251 cacctccttcggggaagttgtgaagaacctggacaacgtccatgcccagttctccaaact
+BC152793.1 tgtctctggcctgtggggaaaggtgaacgccgatgaagttggtggtg-------------
+           ...***.  *  * . *  .  . **** . **...  *. . .                
+
+DQ215299.1 gtccgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0503328 gtccgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0316096 gtccgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0098908 gtccgagctgcactgtgacaagctgcacgtggaccctgagaacttcagg
+XM_0644416 gtctgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0633933 gtccgagctgcactgtgacaagctgcacgtggaccctgagaacttcagg
+XM_0647048 gtccgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0588257 gtccgagctgcactgtgacaagctgcacgtggaccccgagaacttcagg
+XM_0279088 gtcagagctgcactgtgacaagctgcacgtggaccctgagaacttcagg
+XM_0597251 gagaaagctgcactgtgacaagctgcacgtggaccccgaaagcttc---
+BC152793.1 ------------------------------aggccctggg-----cagg
+                                         .*.***.*..     *   
