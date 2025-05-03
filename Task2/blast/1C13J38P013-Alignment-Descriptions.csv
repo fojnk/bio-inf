@@ -10,7 +10,3 @@ Description,Scientific Name,Max Score,Total Score,Query Cover,E value,Per. ident
 "PREDICTED: Empidonax traillii hemoglobin subunit epsilon (LOC114071158), transcript variant X3, mRNA",Empidonax traillii,106,106,14%,4e-17,75.22,566,"=HYPERLINK(""https://www.ncbi.nlm.nih.gov/nucleotide/XM_027908888.1?report=genbank&log$=nucltop&blast_rank=9&RID=1C13J38P013"",""XM_027908888.1"")"
 "PREDICTED: Myiozetetes cayanensis hemoglobin subunit beta (LOC126649061), mRNA",Myiozetetes cayanensis,106,106,14%,4e-17,75.55,605,"=HYPERLINK(""https://www.ncbi.nlm.nih.gov/nucleotide/XM_050332894.1?report=genbank&log$=nucltop&blast_rank=10&RID=1C13J38P013"",""XM_050332894.1"")"
 "PREDICTED: Alligator mississippiensis hemoglobin subunit beta-like (LOC132249606), mRNA",Alligator mississippiensis,63.9,63.9,14%,2e-04,71.88,712,"=HYPERLINK(""https://www.ncbi.nlm.nih.gov/nucleotide/XM_059725104.1?report=genbank&log$=nucltop&blast_rank=11&RID=1C13J38P013"",""XM_059725104.1"")"
-
-		
-
-
