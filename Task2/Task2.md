@@ -54,6 +54,8 @@ https://www.ncbi.nlm.nih.gov/gene/3043
 
 Для множественного выравнивания воспользовался программой mafft. Результат можно посмотреть по пути mafft/alignment.aln
 
+![Выравнивание в jalview](https://github.com/fojnk/bio-inf/blob/main/Task2/mafft/align-image.png)
+
 ## 6. Анализ выравнивания
 
 **Общие выводы:**
