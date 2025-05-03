@@ -25,10 +25,13 @@ https://www.ncbi.nlm.nih.gov/gene/3043
 
 ## 3. Параметры BLAST
 
-Program - blastn.
-Database - nucleotide collection (nr/rt).
-Optimization - Highly similar sequences (megablast).
-Organism - mammals (taxid:40674) (exclude)
+* Program - blastn.
+* Database - nucleotide collection (nr/rt).
+* Optimization - Highly similar sequences (megablast).
+* Organism - mammals (taxid:40674) (exclude)
+
+**algorithm params**
+* Max target sequences - 5000
 
 ## 4. Гомологические гены
 
@@ -60,12 +63,12 @@ Organism - mammals (taxid:40674) (exclude)
 
 Наибольшая консервативность присутствует в последовательностях птиц, что указывает на их тесное родство. У аллигатора наблюдаются более заметные различия, что отражает его более далёкое родство с птицами.
 
-## 7.
+## 7. Ближайший таксон
 
-Для всех перечисленных вами видов (Taeniopygia guttata, Prinia subflava, Phasianus colchicus, Charadrius vociferus, Zonotrichia leucophrys gambelii, Phalacrocorax carbo, Ammospiza caudacuta, Mus musculus, Empidonax traillii, Myiozetetes cayanensis, Alligator mississippiensis) ближайший общий таксон — класс Reptilia (рептилии).
+Для всех перечисленных видов (Taeniopygia guttata, Prinia subflava, Phasianus colchicus, Charadrius vociferus, Zonotrichia leucophrys gambelii, Phalacrocorax carbo, Ammospiza caudacuta, Mus musculus, Empidonax traillii, Myiozetetes cayanensis, Alligator mississippiensis) ближайший общий таксон — класс Reptilia (рептилии).
 
 Хотя эти виды принадлежат к разным классам (птицы и млекопитающие), их объединяет более высокий таксон — подтип Vertebrata (хордовые), который включает все позвоночные виды.
 
 Таким образом, ближайший общий таксон для всех перечисленных видов — **Vertebrata**.
 
-Vertebrata — это подтип в животном царстве, который объединяет все виды с позвоночником. Представители этого таксона включают множество животных, от рыб до млекопитающих. Характерной чертой позвоночных является наличие позвоночного столба, который защищает спинной мозг и помогает поддерживать структуру тела. К этому подтипу принадлежат такие группы, как млекопитающие, птицы, рептилии, амфибии и рыбы. позвоночные обладают развитыми нервной и кровеносной системами, а также сложной системой органов, что позволяет им адаптироваться к различным условиям жизни.
+**Vertebrata** — это подтип в животном царстве, который объединяет все виды с позвоночником. Представители этого таксона включают множество животных, от рыб до млекопитающих. Характерной чертой позвоночных является наличие позвоночного столба, который защищает спинной мозг и помогает поддерживать структуру тела. К этому подтипу принадлежат такие группы, как млекопитающие, птицы, рептилии, амфибии и рыбы. позвоночные обладают развитыми нервной и кровеносной системами, а также сложной системой органов, что позволяет им адаптироваться к различным условиям жизни.
