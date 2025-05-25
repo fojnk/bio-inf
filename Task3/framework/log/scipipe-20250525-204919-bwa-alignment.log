@@ -1,0 +1,34 @@
+AUDIT   2025/05/25 20:49:19 [Workflow:bwa-alignment] Starting workflow (Writing log to log/scipipe-20250525-204919-bwa-alignment.log)
+AUDIT   2025/05/25 20:49:19 [Task:ref_source] Output file already exists, so skipping: ../data/ref_ecoli.fna.gz
+AUDIT   2025/05/25 20:49:19 [Task:fastq_source] Output file already exists, so skipping: ../data/SRR33692911.fastq.gz
+AUDIT   2025/05/25 20:49:19 [Task:bwa_index] Executing: bwa index ../../data/ref_ecoli.fna.gz > logs/bwa_index.log 2>&1 && touch bwa_index.done
+AUDIT   2025/05/25 20:49:19 [Task:fastqc] Executing: fastqc ../../data/SRR33692911.fastq.gz -o fastqc_out > logs/fastqc.log 2>&1
+AUDIT   2025/05/25 20:49:21 [Task:bwa_index] Finished: bwa index ../../data/ref_ecoli.fna.gz > logs/bwa_index.log 2>&1 && touch bwa_index.done
+AUDIT   2025/05/25 20:49:21 [Task:bwa_mem] Executing: bwa mem ../../data/ref_ecoli.fna.gz ../../data/SRR33692911.fastq.gz > aligned.sam 2> logs/bwa_mem.log && cat ../bwa_index.done > /dev/null
+AUDIT   2025/05/25 20:49:37 [Task:fastqc] Finished: fastqc ../../data/SRR33692911.fastq.gz -o fastqc_out > logs/fastqc.log 2>&1
+AUDIT   2025/05/25 20:51:33 [Task:bwa_mem] Finished: bwa mem ../../data/ref_ecoli.fna.gz ../../data/SRR33692911.fastq.gz > aligned.sam 2> logs/bwa_mem.log && cat ../bwa_index.done > /dev/null
+AUDIT   2025/05/25 20:51:33 [Task:sam2bam] Executing: samtools view -b ../aligned.sam > aligned.bam 2> logs/sam2bam.log
+AUDIT   2025/05/25 20:51:44 [Task:sam2bam] Finished: samtools view -b ../aligned.sam > aligned.bam 2> logs/sam2bam.log
+AUDIT   2025/05/25 20:51:44 [Task:flagstat] Executing: samtools flagstat ../aligned.bam > alignment_report.txt 2> logs/flagstat.log
+AUDIT   2025/05/25 20:51:45 [Task:flagstat] Finished: samtools flagstat ../aligned.bam > alignment_report.txt 2> logs/flagstat.log
+AUDIT   2025/05/25 20:51:45 [Task:evaluate] Executing: bash -c '
+	mapped_percent=$(grep -oE '[0-9]+\.[0-9]+%' -m1 ../alignment_report.txt | tr -d '%')
+
+	echo "Mapped percent: $mapped_percent%"
+
+	if (( $(echo "$mapped_percent > 90" | bc -l) )); then
+    	echo "OK"
+	else
+    	echo "Not OK"
+	fi ' > logs/evaluate.log 2>&1
+AUDIT   2025/05/25 20:51:45 [Task:evaluate] Finished: bash -c '
+	mapped_percent=$(grep -oE '[0-9]+\.[0-9]+%' -m1 ../alignment_report.txt | tr -d '%')
+
+	echo "Mapped percent: $mapped_percent%"
+
+	if (( $(echo "$mapped_percent > 90" | bc -l) )); then
+    	echo "OK"
+	else
+    	echo "Not OK"
+	fi ' > logs/evaluate.log 2>&1
+AUDIT   2025/05/25 20:51:45 [Workflow:bwa-alignment] Finished workflow (Log written to log/scipipe-20250525-204919-bwa-alignment.log)

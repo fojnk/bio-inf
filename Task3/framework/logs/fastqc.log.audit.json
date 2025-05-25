@@ -1,0 +1,28 @@
+{
+    "ID": "lu7o3rk14x7e830qjyil",
+    "ProcessName": "fastqc",
+    "Command": "fastqc ../../data/SRR33692911.fastq.gz -o fastqc_out \u003e logs/fastqc.log 2\u003e\u00261",
+    "Params": {},
+    "Tags": {},
+    "StartTime": "2025-05-25T20:49:19.692145+07:00",
+    "FinishTime": "2025-05-25T20:49:37.589741+07:00",
+    "ExecTimeNS": 17897780875,
+    "OutFiles": {
+        "html": "fastqc_out/SRR33692911_fastqc.html",
+        "log": "logs/fastqc.log"
+    },
+    "Upstream": {
+        "../data/SRR33692911.fastq.gz": {
+            "ID": "1lp11fxvmumkswzpk2cl",
+            "ProcessName": "",
+            "Command": "",
+            "Params": {},
+            "Tags": {},
+            "StartTime": "0001-01-01T00:00:00Z",
+            "FinishTime": "0001-01-01T00:00:00Z",
+            "ExecTimeNS": -1,
+            "OutFiles": {},
+            "Upstream": {}
+        }
+    }
+}

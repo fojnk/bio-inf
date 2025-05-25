@@ -1,0 +1,22 @@
+digraph "bwa-alignment" {
+  rankdir=LR;
+  graph [fontname="Arial",fontsize=13,color="#384A52",fontcolor="#384A52"];
+  node  [fontname="Arial",fontsize=11,color="#384A52",fontcolor="#384A52",fillcolor="#EFF2F5",shape=box,style=filled];
+  edge  [fontname="Arial",fontsize=9, color="#384A52",fontcolor="#384A52"];
+  "bwa_index" [shape=box];
+  "bwa_mem" [shape=box];
+  "evaluate" [shape=box];
+  "fastq_source" [shape=box];
+  "fastqc" [shape=box];
+  "flagstat" [shape=box];
+  "ref_source" [shape=box];
+  "sam2bam" [shape=box];
+  "bwa_index" -> "bwa_mem" [taillabel="done", headlabel="index_done"];
+  "bwa_mem" -> "sam2bam" [taillabel="sam", headlabel="sam"];
+  "fastq_source" -> "fastqc" [taillabel="fastq", headlabel="fastq"];
+  "fastq_source" -> "bwa_mem" [taillabel="fastq", headlabel="reads"];
+  "flagstat" -> "evaluate" [taillabel="report", headlabel="report"];
+  "ref_source" -> "bwa_index" [taillabel="ref", headlabel="ref"];
+  "ref_source" -> "bwa_mem" [taillabel="ref", headlabel="ref"];
+  "sam2bam" -> "flagstat" [taillabel="bam", headlabel="bam"];
+}

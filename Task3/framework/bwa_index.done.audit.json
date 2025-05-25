@@ -1,0 +1,28 @@
+{
+    "ID": "ll96420p80o982xvun07",
+    "ProcessName": "bwa_index",
+    "Command": "bwa index ../../data/ref_ecoli.fna.gz \u003e logs/bwa_index.log 2\u003e\u00261 \u0026\u0026 touch bwa_index.done",
+    "Params": {},
+    "Tags": {},
+    "StartTime": "2025-05-25T20:49:19.692033+07:00",
+    "FinishTime": "2025-05-25T20:49:21.541306+07:00",
+    "ExecTimeNS": 1849291541,
+    "OutFiles": {
+        "done": "bwa_index.done",
+        "log": "logs/bwa_index.log"
+    },
+    "Upstream": {
+        "../data/ref_ecoli.fna.gz": {
+            "ID": "zl5hzja83tjd2t9v5465",
+            "ProcessName": "",
+            "Command": "",
+            "Params": {},
+            "Tags": {},
+            "StartTime": "0001-01-01T00:00:00Z",
+            "FinishTime": "0001-01-01T00:00:00Z",
+            "ExecTimeNS": -1,
+            "OutFiles": {},
+            "Upstream": {}
+        }
+    }
+}

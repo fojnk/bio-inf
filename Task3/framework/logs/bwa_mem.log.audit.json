@@ -1,0 +1,68 @@
+{
+    "ID": "rqiomxkfddqmdc23w0ux",
+    "ProcessName": "bwa_mem",
+    "Command": "bwa mem ../../data/ref_ecoli.fna.gz ../../data/SRR33692911.fastq.gz \u003e aligned.sam 2\u003e logs/bwa_mem.log \u0026\u0026 cat ../bwa_index.done \u003e /dev/null",
+    "Params": {},
+    "Tags": {},
+    "StartTime": "2025-05-25T20:49:21.543247+07:00",
+    "FinishTime": "2025-05-25T20:51:33.005132+07:00",
+    "ExecTimeNS": 131463245125,
+    "OutFiles": {
+        "log": "logs/bwa_mem.log",
+        "sam": "aligned.sam"
+    },
+    "Upstream": {
+        "../data/SRR33692911.fastq.gz": {
+            "ID": "1lp11fxvmumkswzpk2cl",
+            "ProcessName": "",
+            "Command": "",
+            "Params": {},
+            "Tags": {},
+            "StartTime": "0001-01-01T00:00:00Z",
+            "FinishTime": "0001-01-01T00:00:00Z",
+            "ExecTimeNS": -1,
+            "OutFiles": {},
+            "Upstream": {}
+        },
+        "../data/ref_ecoli.fna.gz": {
+            "ID": "zl5hzja83tjd2t9v5465",
+            "ProcessName": "",
+            "Command": "",
+            "Params": {},
+            "Tags": {},
+            "StartTime": "0001-01-01T00:00:00Z",
+            "FinishTime": "0001-01-01T00:00:00Z",
+            "ExecTimeNS": -1,
+            "OutFiles": {},
+            "Upstream": {}
+        },
+        "bwa_index.done": {
+            "ID": "ll96420p80o982xvun07",
+            "ProcessName": "bwa_index",
+            "Command": "bwa index ../../data/ref_ecoli.fna.gz \u003e logs/bwa_index.log 2\u003e\u00261 \u0026\u0026 touch bwa_index.done",
+            "Params": {},
+            "Tags": {},
+            "StartTime": "2025-05-25T20:49:19.692033+07:00",
+            "FinishTime": "2025-05-25T20:49:21.541306+07:00",
+            "ExecTimeNS": 1849291541,
+            "OutFiles": {
+                "done": "bwa_index.done",
+                "log": "logs/bwa_index.log"
+            },
+            "Upstream": {
+                "../data/ref_ecoli.fna.gz": {
+                    "ID": "zl5hzja83tjd2t9v5465",
+                    "ProcessName": "",
+                    "Command": "",
+                    "Params": {},
+                    "Tags": {},
+                    "StartTime": "0001-01-01T00:00:00Z",
+                    "FinishTime": "0001-01-01T00:00:00Z",
+                    "ExecTimeNS": -1,
+                    "OutFiles": {},
+                    "Upstream": {}
+                }
+            }
+        }
+    }
+}
