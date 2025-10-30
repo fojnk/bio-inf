@@ -74,10 +74,7 @@ select all; color cpk
 - **CPK**: `select all; color cpk` — применено для большинства визуализаций сверху.
 - **По доменам/цепям** (пример для гемоглобина: цепи A, B, C, D):
 ```text
-select :A; color red
-select :B; color blue
-select :C; color green
-select :D; color yellow
+color group
 ```
 Изображение: ![Molecular surface](figures/ribbons_with_group_coloring.png)
 
